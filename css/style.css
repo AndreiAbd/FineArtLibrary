@@ -1,4 +1,4 @@
-/* Powered | CoderX ©2020 | Andrei Abd
+/* Powered | CoderX ©2021 | Andrei Abd
 █▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
 █▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
 CODER X |تم تصميم الموقع و برمجته من قبل اندريه عبد
@@ -13,7 +13,9 @@ Facebook  :  https://www.facebook.com/andreiaabd/ */
 *{
 transition:all .5;
 }
-
+.card-text{
+    font-size: 1.06rem;
+}
 body{
 width: 100%;
 margin: auto;
