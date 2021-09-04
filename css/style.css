@@ -13,6 +13,9 @@ Facebook  :  https://www.facebook.com/andreiaabd/ */
 *{
 transition:all .5;
 }
+.small, small {
+    font-size: 1em;
+}
 .card-text{
     font-size: 1.06rem;
 }
