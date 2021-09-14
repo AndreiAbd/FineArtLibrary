@@ -16,26 +16,24 @@ transition:all .5;
 .small, small {
     font-size: 1em;
 }
-.card-text{
-    font-size: 1.06rem;
-}
 body{
 width: 100%;
 margin: auto;
 }
+#fixSpaceBlank{
+padding-top: 70px;
+}
 #header-title{
-margin:12px;
+margin:5px;
 border: 1px solid #000;
 border-radius: 15px 15px 0px 0px;
 box-shadow: 0px 0px 5px #000;
-}
-#header-title p{
-margin:5px;
-padding: 5px;
-padding-right: 15px;
-color: #000;
-font-family: 'Kufam', cursive;
-text-align: right;
+position: fixed;
+background-color: #fff;
+z-index: 5;
+width: 100%;
+display: inline-grid;
+
 }
 footer{
 font-size: 15px;
@@ -184,6 +182,7 @@ border-bottom: 2px solid #000;
 #marquee-main-page p {
 margin: 5px;
 font-weight: bold;
+text-align: right;
 }
 #btn-main-pagelist-book{
 border-radius: 15px 0px 0px 15px;
@@ -215,6 +214,14 @@ display: none;
 }
 #articles-show-all-main-list a{
 font-size: 17px;
+}
+.btn{
+font-size: large;
+background-color: #fff;
+border: 1px solid #000;
+margin: 10px;
+color: #000;
+border-radius: 15px 0px 0px 15px;
 }
 .btn:hover, .btn:focus{
 color: #fff;
@@ -282,9 +289,7 @@ box-shadow: 0px 1px 5px #000;
 border: 1px solid #000;
 border-radius: 15px;
 margin: 5px;
-}
-#plastic-art-books-drawing-painting{
-display: none;
+direction: rtl;
 }
 #content-drawing-and-painting{
 display: none;
@@ -418,4 +423,98 @@ padding: 15px;
 }
 #dialogboxfooter{
 text-align: center;
+}
+/*nu*/
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  border: 1px solid #000;
+  background-color: #fff;
+  box-shadow: 0px 50px 200px #000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  direction: rtl;
+
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-align: right;
+  font-size: 16px;
+  color: #000;
+  display: block;
+  transition: 0.3s;
+  font-weight: bold;
+}
+.sidenav a:hover {
+  color: #fff;
+  background-color: #000;
+  border-radius: 15px 0px 0px 15px;
+}
+.sidenav .closebtn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 30px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.headerElementsFixed{
+  display: inline-flex;
+  padding: 6px;
+  direction: rtl;
+}
+.headerElementsFixed button{
+  font-family: 'Kufam', cursive;
+  border-radius: 15px 0px 0px 15px;
+  text-align: right;
+  color: #000;
+  border: 1px solid #000;
+  margin: 5px;
+  box-shadow: 0px 1px 5px #000;
+  font-size: 15px;
+  background-color: #fff;
+  font-weight: bold;
+}
+.headerElementsFixed button:hover{
+  color: #fff;
+  background-color: #000;
+}
+.headerElementsFixed p{
+  font-family: 'Kufam', cursive;
+  position: absolute;
+  left: 30%;
+  width: 40%;
+  height: 17%;
+  top: 35%;
+}
+.btn-primary{
+  font-size: large;
+  background-color: #fff;
+  border: 1px solid #000;
+  margin: 10px;
+  color: #000;
+  border-radius: 15px 0px 0px 15px;
+}
+.dropdown ul{
+  direction: rtl;
+}
+.dropdown-menu{
+  top: 3px;
+  left: 2px;
+  border: 1px solid #000;
+  box-shadow: 0px 0px 10px #000;
 }
