@@ -1,532 +1,2125 @@
-/* Powered | CoderX ©2021 | Andrei Abd
-█▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
-█▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
-CODER X |تم تصميم الموقع و برمجته من قبل اندريه عبد
-mail      :  usr.g0a1@gmial.com
-CoderX    :  https://coderx-project.blogspot.com/
-Whatsapp  :  +963934820511
-Pinterest :  https://www.pinterest.com/andreiabd93
-Instagram :  https://www.instagram.com/andrei_abd/
-Linkeden  :  https://www.linkedin.com/in/andreiabd
-Facebook  :  https://www.facebook.com/andreiaabd/ */
 
-*{
-transition:all .5;
-}
-.small, small {
-    font-size: 1em;
-}
-body{
-width: 100%;
-margin: auto;
-}
-#fixSpaceBlank{
-padding-top: 70px;
-}
-#header-title{
-margin:5px;
-border: 1px solid #000;
-border-radius: 15px 15px 0px 0px;
-box-shadow: 0px 0px 5px #000;
-position: fixed;
-background: rgb(87,0,0);
-background: linear-gradient(90deg, rgba(87,0,0,1) 0%, rgba(214,0,0,1) 35%, rgba(110,0,0,1) 100%);
-z-index: 5;
-width: 100%;
-display: inline-grid;
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!--Powered | CoderX ©2021 | Andrei Abd
+    █▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
+    █▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
+    CODER X |تم تصميم الموقع و برمجته من قبل اندريه عبد
+    mail      :  usr.g0a1@gmial.com
+    CoderX    :  https://coderx-project.blogspot.com/
+    Whatsapp  :  +963934820511
+    Pinterest :  https://www.pinterest.com/andreiabd93
+    Instagram :  https://www.instagram.com/andrei_abd/
+    Linkeden  :  https://www.linkedin.com/in/andreiabd
+    Facebook  :  https://www.facebook.com/andreiaabd/
+    -->
 
-}
-footer{
-font-size: 15px;
-}
-#footer-title{
-margin:12px;
-border: 1px solid #000;
-border-radius: 0px 0px 15px 15px;
-text-align: center;
-font-weight: bold;
-box-shadow: 0px 0px 5px #000;
-}
-#footer-header-card{
-margin:20px;
-border: 1px solid #000;
-border-radius: 0px 0px 15px 15px;
-text-align: center;
-font-weight: bold;
-box-shadow: 0px 0px 10px #000;
-}
-main{
-margin: 12px;
-border: 1px solid #000;
-box-shadow: 0px 0px 10px #000;
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap" 
+      rel="stylesheet"
+    />
 
-}
-#line{
-margin:12px;
-border: 0.5px solid #000;
-}
-nav {
-direction: rtl;
-text-align: right;
-font-family: 'Kufam', cursive;
-}
-#nav-buttons button {
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-color: #000;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#nav-buttons button:hover, #nav-buttons button:focus {
-color: #fff;
-background-color: #000;
-}
-#btnmain-main {
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-color: #000;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-font-size: 15px;
-}
-#btnmain-main:hover,#btnmain-main:focus{
-color: #fff;
-background-color: #000;
-}
-#btn-facebookpage-go{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-color: #000;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-font-size: 15px;
-}
-#btn-facebookpage-go:hover,#btn-facebookpage-go:focus{
-color: #fff;
-background-color: #000;
-}
-#navbarmainbtn {
-border-radius: 15px 0px 0px 15px;
-box-shadow: 0px 1px 5px #000;
-text-align: righ;
-color: #000;
-border: 1px solid #000;
-margin: 5px;
-}
-#navbarmainbtn:hover, #navbarmainbtn:focus{
-color: #fff;
-background-color: #000;
-}
-#marquee-text{
-margin: 12px;
-font-weight: bolder;
-}
-#marquee-blank{
-float: right;
-border: 1px solid #000 ;
-width:10%;
-height: 28px;
-border-radius: 15px 0px 0px 15px;
-box-shadow: 0px 1px 5px #000;
-}
-#marquee-blank-mainpage{
-float: right;
-border: 1px solid #000 ;
-width:100%;
-height: 28px;
-border-radius: 0px 0px 15px 15px;
-box-shadow: 0px 1px 5px #000;
-}
-#mainleft-texture{
-background-color: #fff;
-width: 99%;
-margin-top: 20px;
-height: auto;
-text-align: right;
-}
-#maintop-card{
-direction: rtl;
-text-align: right;
-margin: 10px;
-}
-#maintop-cardother{
-direction: ltr;
-text-align: right;
-margin: 10px;
-font-weight: bold;
-font-size: 15px;
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
 
-}
-#main-page-in-main{
-text-align: right;
-direction: rtl;
-display: none;
-}
-#mainpage-navebar{
-margin:5px;
-padding: 5px;
-padding-right: 15px;
-color: #000;
-font-family: 'Kufam', cursive;
-text-align: right;
-direction: rtl;
-box-shadow: 0px 0px 15px #fff;
-background-color: #fff;
-font-size: 20px;
-}
-#marquee-main-page{
-border-bottom: 2px solid #000;
-}
-#marquee-main-page p {
-margin: 5px;
-font-weight: bold;
-text-align: right;
-}
-#btn-main-pagelist-book{
-border-radius: 15px 0px 0px 15px;
-box-shadow: 0px 1px 5px #000;
-text-align: righ;
-color: #000;
-border: 1px solid #000;
-margin: 5px;
-}
-#texture-nav-btn{
-text-align: right;
-margin: 10px;
-direction: rtl;
-}
-#icon-text-nave-report{
-text-align: center;
-}
-#nvae-texture1 ,#nvae-texture2 ,#nvae-texture3{
-display: none;
-}
-#texture-main-page-click{
-text-align: right;
-margin: 10px;
-direction: rtl;
-font-size: 15px;
-}
-#articles-show-all-main-list{
-display: none;
-}
-#articles-show-all-main-list a{
-font-size: 17px;
-}
-.btn{
-font-size: large;
-background-color: #fff;
-border: 1px solid #000;
-margin: 10px;
-color: #000;
-border-radius: 15px 0px 0px 15px;
-}
-.btn:hover, .btn:focus{
-color: #fff;
-background-color: #000;
-}
-#texutre-main-page-1-all{
-display: none;
-}
-.loader {
-position: fixed;
-z-index: 99;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
-display: flex;
-justify-content: center;
-background-color: #fff;
-align-items: center;
-}
-.loader img {
-width: 40%;
-}
-.loader.hidden {
-animation: fadeOut 2s;
-animation-fill-mode: forwards;
-}
-@keyframes fadeOut {
-100% {
-opacity: 0;
-visibility: hidden;
-}
-}
-#back-to-top-btn {
-display: none;
-position: fixed;
-bottom: 15px;
-right: 20px;
-font-size: 30px;
-width: 50px;
-height: 50px;
-background: rgb(87,0,0);
-background: linear-gradient(90deg, rgba(87,0,0,1) 0%, rgba(214,0,0,1) 35%, rgba(110,0,0,1) 100%);
-color: #fff;
-border-radius: 10%;
-cursor: pointer;
-border: 1px solid #000;
-transition-duration: 0.2s;
-transition-timing-function: ease-in-out;
-transition-property: background-color, color;
-box-shadow: 0px 1px 5px #000;
+    <!--Arabic Language-->
+    <meta 
+      charset="UTF-8"
+    >
 
-}
-#back-to-top-btn:hover, #back-to-top-btn:focus {
-background-color: #000;
-color: #fff;
-}
-#books-of-plastic-arts button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#cards-book-all-lib{
-border: 1px solid #000;
-border-radius: 15px;
-margin: 5px;
-direction: rtl;
-}
-#content-drawing-and-painting{
-display: none;
-}
-#books-of-plastic-arts{
-display: none;
-}
-#plastic-art-books-printmaking {
-display: none;
-font-size: 15px;
-}
-#content-printmaking {
-display: none;
-}
-#content-carving{
-display: none;
-}
-#plastic-art-books-carving{
-display: none;
-font-size: 15px;
-}
-#plastic-art-books-color{
-display: none;
-font-size: 15px;
-}
-#plastic-art-books-color button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#content-color{
-display: none;
-}
-#plastic-art-books-anatomy{
-display: none;
-font-size: 15px;
-}
-#plastic-art-books-anatomy button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#content-anatomy{
-display: none;
-}
-#plastic-art-books-prespective{
-display: none;
-font-size: 15px;
-}
-#plastic-art-books-prespective button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#content-prespective{
-display: none;
-}
-#plastic-art-books-design button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#plastic-art-books-design{
-font-size: 15px;
-display: none;
-}
-#content-design{
-display: none;
-}
-#plastic-art-books-education button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#plastic-art-books-education {
-font-size: 15px;
-display: none;
-}
-#content-education{
-display: none;
-}
-#plastic-art-books-criticism button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#plastic-art-books-criticism{
-font-size: 15px;
-display: none;
-}
-#content-criticism{
-display: none;
-}
-#dialogoverlay{
-display: none;
-opacity: .8;
-position: fixed;
-top: 0px;
-left: 0px;
-background-color: #fff;
-width: 100%;
-z-index: 10;
-}
-#dialogbox{
-display: none;
-position: fixed;
-width: 250px;
-z-index: 10;
-}
-#dialogboxbody{
-color: #000;
-border: 1px solid #000;
-border-radius: 15px;
-border: 1px solid black;
-color: #000;
-box-shadow: 2px 2px 5px black;
-background-color: #fff;
-padding: 15px;
-}
-#dialogboxfooter{
-text-align: center;
-}
-/*nu*/
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  border: 1px solid #000;
-  background: rgb(87,0,0);
-  background: linear-gradient(90deg, rgba(87,0,0,1) 0%, rgba(214,0,0,1) 35%, rgba(110,0,0,1) 100%);
-  box-shadow: 0px 50px 200px #000;
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  direction: rtl;
+     <!--Devices All Screen-->
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0"
+    >
+    
+    <!--Web Site icon-->
+    <link  
+      rel="icon" 
+      href="png/00-logo.png"
+    />
+    
+  	<!--Google Search Console-->
+    <meta 
+      name="google-site-verification" 
+      content="44SR0WJt3L5SBIYr8qvqmbd-_7buOW_hQIVqcSoTkPs" />
+  
+    <!--Web Site SEO & Description & Tittle-->
+    <meta 
+      name="description" 
+      content="Fine Art Library - مكتبة الفنون التشكيلية">
+    <meta 
+      name="keywords" 
+      content="Art, Fin Art, Books, Library, painting, paint, printmaking, print, sculpture, carving, artist, museums, exhibition,فنون جميلة , فن.فنون بصرية, نحت, إعلان, رسم, كتب, علوم فنية, فنون تشكيلية, فنانين, متاحف">
+      <title>Fine Art Library</title>
+    
+    <!--Loader image-->
+    <script
+      src="js/loader.js"
+    >
+    </script>
+    <!--Side Nave Bar-->
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "280px";
+        document.getElementById("main").style.marginLeft = "280px";
+      }
 
-}
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+    <!--CSS-->
+    <link 
+      rel="stylesheet" 
+      href="css/style.css"
+    >
+  </head>
+<body>
+  <div class="loader">
+      <img src="gif/loader-fineartlibrary-all.gif"/>
+  </div>
+  <header>
+    <div id="dialogoverlay"></div>
+    <div id="dialogbox">
+      <div id="dialogboxbody"></div>
+      <div id="dialogboxfooter"></div>
+    </div>
+    <div id="header-title">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div id="line"></div>
+        <a href="index.html"><i class="fas fa-cogs"></i> الصفحة الرئيسية</a>
+        <div id="line"></div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الكتب
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المقالات 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأعلام و الرواد
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المدارس 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الحركات
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المتاحف
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div id="line"></div>
+        <a href="#"><i class="fas fa-cogs"></i> سياسة الموقع</a>
+        <a href="#"><i class="fas fa-cogs"></i> حول الموقع</a>
+        <a href="#"><i class="fas fa-cogs"></i> مواقع ذات صلة</a>
+        <div id="line"></div>
+        <br>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <div class="headerElementsFixed">
+        <button style="font-size:15px;cursor:pointer" onclick="openNav()">&#9776; القائمة الرئيسية</button>
+        <a href="#content-drawing-and-painting">
+          <button class="btn" onclick="openContentArtDrawing()" id="btn-contents-paint"><i class="fas fa-align-right"></i> الفهرس</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div id="fixSpaceBlank"><!----></div>
+  <div id="line"><!----></div>
 
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-align: right;
-  font-size: 16px;
-  color: #fff;
-  display: block;
-  transition: 0.3s;
-  font-weight: bold;
-}
-.sidenav a:hover {
-  color: #fff;
-  background-color: #000;
-  border-radius: 15px 0px 0px 15px;
-}
-.sidenav .closebtn:hover{
-  background-color: #fff;
-  color: #000;
-}
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 30px;
-  margin-left: 50px;
-}
-.dropdown ul{
-  background-color: #a40101;
-  border: 1px #fff solid;
-  color: #fff;
-}
-.sidenav .btn-primary{
-  color: #fff;
-  border: 1px solid #fff;
-  background-color: rgba(255, 255, 255, 0);
-}
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-.headerElementsFixed{
-  display: inline-flex;
-  padding: 6px;
-  direction: rtl;
-}
-.headerElementsFixed button{
-  font-family: 'Kufam', cursive;
-  border-radius: 15px 0px 0px 15px;
-  text-align: right;
-  color: #fff;
-  border: 1px solid #fff;
-  margin: 5px;
-  box-shadow: 0px 1px 5px #000;
-  font-size: 15px;
-  background-color: rgba(0, 0, 0, 0);
-  font-weight: bold;
-}
-.headerElementsFixed button:hover{
-  color: #000;
-  background-color: #fff;
-}
-.headerElementsFixed p{
-  font-family: 'Kufam', cursive;
-  position: absolute;
-  left: 30%;
-  width: 40%;
-  height: 17%;
-  top: 35%;
-}
-.btn-primary{
-  font-size: large;
-  background-color: #fff;
-  border: 1px solid #000;
-  margin: 10px;
-  color: #000;
-  border-radius: 15px 0px 0px 15px;
-}
-.dropdown ul{
-  direction: rtl;
-}
-.dropdown-menu{
-  top: 3px;
-  left: 2px;
-  border: 1px solid #000;
-  box-shadow: 0px 0px 10px #000;
-}
+  <main>
+    <div id="plastic-art-books-drawing-painting">
+        <div id="line"></div>
+        <nav class="navbar" id="mainpage-navebar">
+          <p> <i class="fas fa-book-open"></i> الرسم و التصوير :</p>
+        </nav>
+        <div id="marquee-blank-mainpage"></div>
+        <marquee behavior="scroll" width="100%" direction="up" height="70px" scrollamount="1" id="marquee-main-page">
+          <p>
+            لتصوير هو استخدام الطلاء أو الخضب أو الألوان على سطح مثل الورق أو القماش، أو الخشب، أو الزجاج. ولكن
+            عندما تستخدم في فني وبهذا المعنى، فان مصطلح "اللوحة" يعني استخدام هذا النشاط في توليفة مع الرسم، 
+            والتشكيل وغيرها من الاعتبارات الجمالية، من أجل اظهار التعبير والمفاهيم. الطلاء الفني يستخدم كطريقه للتمثيل
+            ، وتوثيق جميع التعبير عن مختلف النوايا والموضوعات التي كما أن هناك العديد من الممارسين للحرفة
+            التكنولوجيا والرسم الفني: دخلت التكنولوجيا حياتنا واستحوذت عليها وأيضا أثر ذلك في فن الرسم فمع تطور التكنولوجيا
+            ووجود وسائل الاتصال الحديثة التي لم تكن موجودة من قبل أصبح الرسم سهلا ومتاحا لكل الناس حيث
+            ظهر الكمبيوتر وبرامجه المتعددة التي تستطيع الرسم بشكل رائع ومنظم أكثر من الإنسان وتطورها حتى أصبحت لاغنى
+            عنها لأي فنان معاصر وأهم الأمثلة (الرسم الإلكتروني) أو الرسم الرقمي حيث يقوم الفنان باستخدام
+            برامج الرسم والشاشات الحديثة التي تعمل بالمس لعمل لوحة فنية رائعة وأيضا يمكنه مشاركتها عن طريق الإنترنت وهكذا أصبح
+            الرسم سهلا جدا وفي متناول الجميع أن يبدعو وذلك بفضل التكنولوجيا التي ستغنينا عن القلم
+            والورقة والريشة والألوان ولكن يظل ممارسة الرسم القديم بالورق والريشة متعة لامثيل لها لأي فنان أو شحص يحب الرسم
+            وأتقنه بيده فسوف يجد برامج الكمبيوتر هذه سخيفة ومملة نوعا ما ويظل التساؤل ماذا كان سيفعل
+            الفنانون القدامى في عصرنا هذا في وجود الحاسوب أمثال (مايكل أنجلو، بيكاسو، فان جوخ، بيسارو، ليوناردو دافينشي ..) والكثير
+            الكثير من الفنانين العظماء الذين لم يشهدوا الثورة التكنولوجية الآن وليس في إمكاننا أن نعرف
+            ما سيكون ردة فعلهم عند مشاهدة جهاز يرسم بإتقان شديد دون ورق أو ريشة أو قلم أو حبر أو ألوان ويطبعها بعد الانتهاء.
+          </p>
+        </marquee>
+        <div id="content-drawing-and-painting">
+          <div class="card">
+            <div class="card-body">
+              <div id="line"></div>
+              <br><br>
+              <p class="card-text">
+               <a href="#pd-1">An Eye for Art Pablo Picasso </a>
+               <div id="line"></div>
+               <a href="#pd-2">Matisse and the Boundary BetweenArt and Decoration</a>
+               <div id="line"></div>
+               <a href="#pd-3">An Eye for Art Henri Matisse and Andre Derain</a>
+               <div id="line"></div>
+               <a href="#pd-4">Entender La Pintura</a>
+               <div id="line"></div>
+               <a href="#pd-5">How to Paint like Rembrandt</a>
+               <div id="line"></div>
+               <a href="#pd-6">Matisse On Art</a>
+               <div id="line"></div>
+               <a href="#pd-7">64 paintings</a>
+               <div id="line"></div>
+               <a href="#pd-8">Henri Matisse</a>
+               <div id="line"></div>
+               <a href="#pd-9">The RELIEVOTM Collection</a>
+               <div id="line"></div>
+               <a href="#pd-10">Vincent van gogh</a>
+               <div id="line"></div>
+               <a href="#pd-11">VAN GOGH A Self Portrait</a>
+               <div id="line"></div>
+               <a href="#pd-12">Vincent van Gogh</a>
+               <div id="line"></div>
+               <a href="#pd-13">Vincent Van Gogh Biography</a>
+               <div id="line"></div>
+               <a href="#pd-14">REMBRANDT’S LAUGHTER AND THE LOVE OF ART</a>
+               <div id="line"></div>
+               <a href="#pd-15">Rembrandt Signs His Painting</a>
+               <div id="line"></div>
+               <a href="#pd-16">REMBRANDT’S PAINTING AND DRAWING TECHNIQUES</a>
+               <div id="line"></div>
+               <a href="#pd-17">Rembrandt In America</a>
+               <div id="line"></div>
+               <a href="#pd-18">Rembrandt and the bible</a>
+               <div id="line"></div>
+               <a href="#pd-19">The Mechanics of Man</a>
+               <div id="line"></div>
+               <a href="#pd-20">Drawings of the Leonardo Da Vinci</a>
+               <div id="line"></div>
+               <a href="#pd-21">Five lectures on Psycho-Analysis</a>
+               <div id="line"></div>
+               <a href="#pd-22">The Body</a>
+               <div id="line"></div>
+               <a href="#pd-23">The complete Artworks Leonardo Da Vinci</a>
+               <div id="line"></div>
+               <a href="#pd-24" style="text-align: right;">نظرية التصوير</a>
+               <div id="line"></div>
+               <a href="#pd-25">Francisco de Goy</a>
+               <div id="line"></div>
+               <a href="#pd-26">The Age of Caravaggio</a>
+               <div id="line"></div>
+               <a href="#pd-27">Leonardo da Vinci</a>
+               <div id="line"></div>
+               <a href="#pd-28">Pierre Auguste Renoir</a>
+               <div id="line"></div>
+               <a href="#pd-29">Rembrant Harmenszoon van Rijn</a>
+               <div id="line"></div>
+               <a href="#pd-30">The Logic Of Sensation</a>
+               <div id="line"></div>
+               <a href="#pd-31">Bacon : Books & Painting</a>
+               <div id="line"></div>
+               <a href="#pd-32">A Study of the Materials & Techniques of Francis Bacon</a>
+               <div id="line"></div>
+               <a href="#pd-33">Learning about Francis Bacon</a>
+               <div id="line"></div>
+               <a href="#pd-34">Edgar Degas</a>
+               <div id="line"></div>
+               <a href="#pd-35">The Dancers</a>
+               <div id="line"></div>
+               <a href="#pd-36">Johannes Vermeer</a>
+               <div id="line"></div>
+               <a href="#pd-37">CEZANNE IN THE STUDIO</a>
+               <div id="line"></div>
+               <a href="#pd-38">Best of Vincent van Gogh</a>
+               <div id="line"></div>
+               <a href="#pd-39">Drawing from Life - Memory and Subjectivity in Comic Art</a>
+               <div id="line"></div>
+               <a href="#pd-40">Drawing Realistic Clothing And People</a>
+               <div id="line"></div>
+               <a href="#pd-41">Drawing Realistic Textures in Pencil</a>
+               <div id="line"></div>
+               <a href="#pd-42">Drawing the human head - anatomy, expressions, emotions and feelings</a>
+               <div id="line"></div>
+               <a href="#pd-43">Drawing The Human Head By Burne Hogarth</a>
+               <div id="line"></div>
+               <a href="#pd-44">Drawing the Line - Art Therapy with the Difficult Client</a>
+               <div id="line"></div>
+               <a href="#pd-45">Fantastic Forgeries - Paint Like Van Gogh A Step-by-Step Course to Painting Van Gogh's Classic Artworks</a>
+               <div id="line"></div>
+               <a href="#pd-46">Figure Drawing for All It's Worth</a>
+               <div id="line"></div>
+               <a href="#pd-47">Figure Drawing Methods for Artists - Over 130 Methods for Sketching, Drawing, and Artistic Discovery</a>
+               <div id="line"></div>
+               <a href="#pd-48">Figure Drawing with Virtual Models - Getting the Most Out of Poser Artists</a>
+               <div id="line"></div>
+               <a href="#pd-49">Figure Drawing Without a Model</a>
+               <div id="line"></div>
+               <a href="#pd-50">Flowers - The Watercolor Art Pad</a>
+               <div id="line"></div>
+               <a href="#pd-51">FORCE - Drawing Human Anatomy 1st Edition</a>
+               <div id="line"></div>
+               <a href="#pd-52">How to Draw drawing and sketching objects and environments from your imagination</a>
+               <div id="line"></div>
+               <a href="#pd-53">How to Paint Living Portraits</a>
+               <div id="line"></div>
+               <a href="#pd-54">Ignite the Soul - The Art of Figure Drawing</a>
+               <div id="line"></div>
+               <a href="#pd-55">Love Colored Pencils - How to Get Awesome at Drawing - An Interactive Draw-in-the-Book Journal</a>
+               <div id="line"></div>
+               <a href="#pd-56">Manga For Dummies</a>
+               <div id="line"></div>
+               <a href="#pd-57">Master Techniques for realism using postwork</a>
+               <div id="line"></div>
+               <a href="#pd-58">Observational Sketching - Hone Your Artistic Skills by Learning How to Observe and Sketch Everyday</a>
+               <div id="line"></div>
+               <a href="#pd-59">Painted Blossoms - Creating Expressive Flower Art with Mixed Media</a>
+               <div id="line"></div>
+               <a href="#pd-60">Pen And Ink drawing Workbook</a>
+               <div id="line"></div>
+               <a href="#pd-61">Beginning Pen & Ink - Tips and techniques for learning to draw in pen and ink</a>
+               <div id="line"></div>
+               <a href="#pd-62">Realistic Still Life In Colored Pencil</a>
+               <div id="line"></div>
+               <a href="#pd-63">Ron Ranson On Skies - Techniques In Watercolor And Other Media</a>
+               <div id="line"></div>
+               <a href="#pd-64">Secrets to Drawing Realistic Faces</a>
+               <div id="line"></div>
+               <a href="#pd-65">The Art Of Ballpoint - Experimentation, Exploration, and Techniques in Ink</a>
+               <div id="line"></div>
+               <a href="#pd-66">The Art of Draw Fu - Beginner Level</a>
+               <div id="line"></div>
+               <a href="#pd-67">The complete book of drawing techniques - a professional guide for the artist</a>
+               <div id="line"></div>
+               <a href="#pd-68">The Encyclopedia of Airbrushing Techniques</a>
+               <div id="line"></div>
+               <a href="#pd-69">The Fundamentals of Drawing Portraits - A Practical and Inspirational Course</a>
+               <div id="line"></div>
+               <a href="#pd-70">The Illustrated Story of Art - The Great Art Movements and the Paintings that Inspired them</a>
+               <div id="line"></div>
+               <a href="#pd-71">The Modern Flower Painter - A Guide To Creating Vibrant Botanical Portraits In Water</a>
+               <div id="line"></div>
+               <a href="#pd-72">Watercolor A to Z</a>
+              </p>
+              <div id="line"></div>
+            </div>
+          </div>
+        </div>
+        <!-- all books -->
+        <div class="card" id="pd-1">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> An Eye for Art Pablo Picasso </h5>
+            <p class="card-text">
+              كتاب عين على أعمال الفنان بابلو بيكاسو
+            </p>
+            <p class="card-text">
+              <small class="text-muted">
+                <i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small>
+              </p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1m_FiKeXZFrDuPcwLdARcpyM_fm5owinl/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pd-2">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Matisse and the Boundary BetweenArt and Decoration</h5>
+            <p class="card-text">
+              كتاب ماتيس والحدود بين الفن والديكور - يستعرض قراءة لتاريخ أعمال الفنان هنري ماتيس
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جين شتاينبرغ</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1QggSZnpeNcr6AHZwfmmQfi6JhJRzzlKF/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pd-3">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">An Eye for Art Henri Matisse and Andre Derain</h5>
+            <p class="card-text">
+              كتاب عين على أعمال هنري ماتيس و اندريه ديرين
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1--POX3rU8trvmjAYsbmUaPoxqhCdeX6j/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pd-4">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Entender La Pintura</h5>
+            <p class="card-text">
+              كتاب للفنان بابلو بيكاسو - يستعرض أهم الأعمال الفنية للفنان 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1A4agow3_6DBdhUNv38oyTWrXSk2bnszG/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pd-5">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">How to Paint like Rembrandt</h5>
+            <p class="card-text">
+              كتاب كيف ترسم مثل رامبرانت - يستعرض الكتاب تجربة الفنانة سارة هارت في نسخ إحدى أعمال الفنان رامبرندت
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : سارة هارت</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1d4Qq-s6B3kFjs9Vyce-uz9KVsRGUWwpQ/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-6">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Matisse On Art</h5>
+            <p class="card-text">
+              كتاب هنري ماتيس في الفن - سيرة حياة الفنان - قراءة في الأعمال الفنية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جاك د.فلام</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/10quPlYswa-UBl-i_-AUR8eNlARjHvZex/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-7">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">64 paintings</h5>
+            <p class="card-text">
+              كتاب بعنوان - 64 لوحة من أعمال الفنان هنري ماتيس
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : لورانس جوينج</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1NMO4omZqR7rb9w7oq1YzK30w3QbCVI_7/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-8">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Henri Matisse</h5>
+            <p class="card-text">
+              كتاب أعمال الفنان هنري ماتيس
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1rELEbXmCH9-qZEiZSGteQ3Ve-f0d1GDp/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-9">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">The RELIEVOTM Collection</h5>
+            <p class="card-text">
+              مجموعة RELIEVOTM
+              بواسطة متحف فان جوخ ،
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> متحف فان كوخ - أمستردام</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1t4gtmUAHENz8vRTCntrIVClVrXpBNw78/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-10">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Vincent van gogh</h5>
+            <p class="card-text">
+              كتاب بعنوان - فنسنت فان جوخ، يستعرض الكتاب بعض الأعمال إضافة لقراءة مختصرة للأعمال الفنية 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1_yqofC8h13mYdwKayLNWdKwEhAxOFGWT/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-11">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">VAN GOGH A Self Portrait</h5>
+            <p class="card-text">
+              - كتاب فان جوخ الصورة الشخصية
+              رسائل تكشف حياته كرسام 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/142RGUIbbHGbKTR-5awHPGTFxKQABaVZk/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-12">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Vincent van Gogh
+              With an introduction and notes selected from the
+              letters of the artist</h5>
+            <p class="card-text">
+              كتاب فنسنت فان غوغ
+              مع مقدمة وملاحظات مختارة من
+              رسائل الفنان 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : هـ. ألفريد</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1_yqofC8h13mYdwKayLNWdKwEhAxOFGWT/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="13">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Vincent Van Gogh Biography</h5>
+            <p class="card-text">
+              كتاب بعنوان - سيرة فنسنت فان جوخ
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/12pS4zylFQv-xkm3vleVgok3O5NKT3Bxh/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="14">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">REMBRANDT’S LAUGHTER AND THE LOVE OF ART</h5>
+            <p class="card-text">
+              كتاب بعنوان - ريمبراندت ضحك وحب الفن 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : هـ. بيري تشابمان</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1-2fWLpIpTDqV7YiUD5E7QxNmB0nRqz2q/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-15">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Rembrandt Signs His Painting</h5>
+            <p class="card-text">
+              رامبرانت يوقع لوحته - كتاب مختصر يضم أشهر انماط التواقيع الفنان رامبرانت على أعماله الفنية 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جان ماري</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/121hn6Bio8uyqcSYx02bWjJbCm5wPSZlU/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-16">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">REMBRANDT’S PAINTING AND DRAWING TECHNIQUES</h5>
+            <p class="card-text">
+              كتاب رامبراندت بعنوان - تقنيات رامبراندت في الرسم و التصوير الزيتي 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فيبي دنت ويل - وسارة بلشيتس</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1PTyt_2MNVfeoqce7SXpTV1-CBZIzjYa0/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-17">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Rembrandt In America</h5>
+            <p class="card-text">
+              كتاب بعنوان - رامبرانت في أمريكا  
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1fTU3QYKvSdZF1e8uARSF4JXxEO-lvWqv/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-18">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Rembrandt and the bible</h5>
+            <p class="card-text">
+              كتاب بعنوان - رامبرانت والكتاب المقدس 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : هيت مايور</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Q3jI4WhtgD5VTX1sTzPS62HSvlqcfkL0/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-19">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">The Mechanics of Man</h5>
+            <p class="card-text">
+              كتاب ليوناردو دافنشي تحت عنوان ميكانيكية الإنسان - يقدم الكتاب جميع الرسومات التي عبر خصت أبحاث دافنشي المتعلقة بالتشريح الإنساني ضمن مخطوتاته السرية المفقودة إلى الأن
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مارتن كلايتون - رون فيلو</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1cgjdxMT5SXuBT24zeZRPGugMHICUHAC8/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-20">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Drawings of the Leonardo Da Vinci</h5>
+            <p class="card-text">
+              كتاب رسومات الفنان ليوناردو دافنشي - رسومات الفنانين العظماء
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> مكتبة لندن</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1IJPSZkxk3C3NIThTYTLE6wReZKKlr7e1/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-21">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Five lectures on Psycho-Analysis</h5>
+            <p class="card-text">
+              كتاب بعنوان خمس محاضرات عن التحليل النفسي ليوناردو دافنشي و أعمال أخرى
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : أنا فرويد</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1aUqp_EFjrnUEu7FvwNDeVDJWWzu7Mhl8/view"id="btn-book22">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-22">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">The Body</h5>
+            <p class="card-text">
+              كتاب الجسم - بحسب الفنان ليوناردو دافنشي, يقدم الكتاب الرسوم النادرة لتشريح جسم الإنسان التي قدمها الفنان ليوناردو ضمن مخطوطاته السرية.
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ليوناردو دافنشي</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/12zSyfQMdVepqguchYAxPhwjAwXly4YO6/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-23">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">The complete Artworks Leonardo Da Vinci</h5>
+            <p class="card-text">
+              كتاب الأعمال الكاملة للفنان ليوناردو دافنشي
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Up5iq2leXud-lIESrtf_YRqxqvJ1oJZY/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-24">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">نظرية التصوير</h5>
+            <p class="card-text">
+              ثمة أسماء بارزة في تاريخ البشرية تركت أثارا خالدة لا تغرب عنب عنها الشمس، مهما ضربت في القدم أو مضى عليها الزمان في العلم و السياسة و الفن، ومن بين هؤلاء ليوناردو دافنشي
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ليوناردو دافينشي</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1ogK854AL9Gz2sFnhR8qUMEmDr_EWwEZ6/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-25">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Francisco de Goy</h5>
+            <p class="card-text">
+              كتاب فرانسيسكو دي غويا يتناول سيرة حياة الفنان و أهم الأعمال التشكيلية التي قدمها من خلال لوحاته
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ساره كار-غومم</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1IjyhG_w6rnEPII4ZeTrtkp1ayIWir4Jt/view"id="btn-book26">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-26">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">The Age of Caravaggio</h5>
+            <p class="card-text">
+              كتاب عصر كرافاجيو - يستعرض الكتاب سيرة حياة الفنان كرافاجيو و أهم أعماله
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> متحف ميتروبوليتان - نيويورك</small></p>
+            <p class="card-text"><small>
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1o8w2i02SF1XcpvV2GmW10zNMMHS-67dK/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-27">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Leonardo da Vinci</h5>
+            <p class="card-text">
+              كتاب ليوناردو دافنشي - قراءة في أعمال و دراسات ليوناردو دافنشي و سيرة حياته 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : والتر إساكسين</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/19zBUfIurFy7HI4zCpniwOawxC0v84IbR/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-28">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Pierre Auguste Renoir</h5>
+            <p class="card-text">
+              كتاب أوغست رينوار - قراءة في أعمال الفنان بيير أوغست رينوار
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جون هاوس</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/17YRyjR8u-0xdu3DLZRy1WnhJawurgJS9/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div><div class="card" id="pd-29">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Rembrant Harmenszoon van Rijn</h5>
+            <p class="card-text">
+              رامبرانت هارمنزون فان راين - كتاب تعريفي بحياة الفنان و أهم الأعمال
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text"><small>
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1kdpsstOHwNrbCeSGGYrMQY-cMIinn-zM/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-30">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">The Logic Of Sensation</h5>
+            <p class="card-text">
+              كتاب للفنان فرانسيس بيكون بعنوان منطق الإحساس
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جيل ديليوز</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1_llUzeQ-9hwsMU2VcSpPg6yyH6d5fmeF/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-31">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Bacon : Books & Painting</h5>
+            <p class="card-text">
+              كتاب الفنان بيكون - الكتب و الأعمال الفنية, هذا الكتاب هو ملخص تعريفي مختصر جدا للفنان التشكيلي فرانسيس بيكون
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : كاميلا ميلو</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1B-QEUjMlBatu6LkjNS7yaae9eyGQwXAJ/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-32">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">A Study of the Materials & Techniques of Francis Bacon</h5>
+            <p class="card-text">
+              يقدم الكتاب دراسة لمواد وتقنيات فرانسيس بيكون 
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جوانا إليزابيث راسل</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1AqpTGUw6aUTgjSq_hg2zOtQJCSUE-Nqq/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-33">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Learning about Francis Bacon</h5>
+            <p class="card-text">
+              كتاب تعلم عن فرانسيس بيكون
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>                      </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1bZQssSDgEGjadlWQYHx76Eos8Q7kOG0O/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-34">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Edgar Degas</h5>
+            <p class="card-text">
+              كتاب الفنان التشكيلي إدغار ديجاس - يستعرض الكتاب تحت مسمى الإنتظار أهم الأعمال إضافة لمناقشة سيرة الفنان و أعماله
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ريتشارد ثومسون</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/15bTnXZrzpPXXdG2U3BsZccvofRB5-rPw/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-35">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">The Dancers</h5>
+            <p class="card-text">
+              كتاب الفنان التشكيلي إدغار ديجاس - يتناول الكتاب لوحات الفنان التشكيلي التي تحدث فيها عن راقصات البالية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ورج تي إم شاكيلفورد</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/drive/u/0/folders/1ieEIfd0UsrVyC-Tzwg5RdHY-3HrbXz4L">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-36">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Johannes Vermeer</h5>
+            <p class="card-text">
+              كتاب جوهانز فيرمير - أهم الأعمال الفنان إضافة لقراءة اللوحات الأكثر إلهاماً
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1B_deUwJPCl7aRoYlK7aarWApKCDUvrDR/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-37">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">CEZANNE IN THE STUDIO</h5>
+            <p class="card-text">
+              كتاب سيزان في الإستديو يقدم الكتاب أعمال الفنان التشكيلي باول سيزان
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : كارول أرمسترونغ</small></p>
+            <p class="card-text">
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/drive/u/0/folders/1ieEIfd0UsrVyC-Tzwg5RdHY-3HrbXz4L">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pd-38">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;">Best of Vincent van Gogh</h5>
+            <p class="card-text">
+              كتاب الفنان فان غوخ تحت عنوان - الأفضل من أعمال فان غوخ
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فيكتوريا تشارليز</small></p>
+            <p class="card-text"><small>
+              <small>
+                التقييم : 
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1IVLxkamX7hvnNaPCQZZ5YESsd0dKr7Bw/view">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pd-39">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Drawing from Life - Memory and Subjectivity in Comic Art </h5>
+            <p class="card-text">
+              رسم من الحياة اليومية - ذاكرة و مشاريع بواسطة فن الكوميك
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1D8V3PqU7upyFkpPj5peD3NoBHn0cSxHP/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        
+        </div>
+
+        <div class="card" id="pd-40">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Drawing Realistic Clothing And People </h5>
+            <p class="card-text">
+              كتاب رسم الأشخاص و الألبسة بطابع واقعي - دراسات واقعية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم :
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1d2utXT7eVCQUsVtEaBNyt8Xq509CKu37/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pd-41">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Drawing Realistic Textures in Pencil </h5>
+            <p class="card-text">
+              كتاب رسم المواد الطبيعية بواسطة أقلام الغرافيك
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Ac-VHhnGA0byq4QOfOAmUMlqmDUG-xpG/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-42">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Drawing the human head - anatomy, expressions, emotions and feelings. </h5>
+            <p class="card-text">
+              رسم رأس الإنسان - علم التشريح والتعبيرات والعواطف والمشاعر
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم :
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a  target="_blank" href="https://drive.google.com/file/d/1TlZLfIK0FHlrSPRdcWQ-j9qra7YYTDEt/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-43">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Drawing The Human Head By Burne Hogarth </h5>
+            <p class="card-text">
+              رسم رأس الإنسان بقلم برن هوغارث
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : برن هوجارث</small></p>
+            <p class="card-text">
+              <small>
+              التقييم :
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Y-KuTfivStFwT3bNvrhKsjluCGrdDWxz/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-44">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Drawing the Line - Art Therapy with the Difficult Client </h5>
+            <p class="card-text">
+              رسم الخط - العلاج بالفن مع العميل الصعب
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ليزا موستشيني</small></p>
+            <p class="card-text">
+              <small>
+              التقييم :
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1I0HAyK7x0--frj7kavPV76UTOmw7_pu1/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-45">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Fantastic Forgeries - Paint Like Van Gogh A Step-by-Step Course to Painting Van Gogh's Classic Artworks </h5>
+            <p class="card-text">
+              التزوير الرائع - ارسم مثل فان جوخ دورة خطوة بخطوة لطلاء الأعمال الفنية الكلاسيكية لفان جوخ
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : سوزان ليا - جوان شورفيل</small></p>
+            <p class="card-text">
+              <small>
+              التقييم :
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1lPdzBhvUCvEcj2OYpsYSOH-0kZKkiS8p/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-46">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Figure Drawing for All It's Worth </h5>
+            <p class="card-text">
+              كتاب رسم الأشكال بصورة تحقق الإستحقاق
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : أندرو لوميس</small></p>
+            <p class="card-text">
+              <small>
+              التقييم :
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1kqYF8-jL5zSes8gfsAg2gqSUqwP4hj0Q/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-47">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Figure Drawing Methods for Artists - Over 130 Methods for Sketching, Drawing, and Artistic Discovery </h5>
+            <p class="card-text">
+              طرق رسم الأشكال للفنانين - أكثر من 130 طريقة للرسم والرسم والاكتشاف الفني
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : بيتر .ب - تيم .بور</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1l0HfLdLh9m2ym3s6szOeJ1U_u8grFzY2/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-48">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Figure Drawing with Virtual Models - Getting the Most Out of Poser Artists </h5>
+            <p class="card-text">
+              رسم الشكل باستخدام النماذج الافتراضية - الحصول على أقصى استفادة من فنانين متصنعين
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ليس بارديو</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1AOtQWFFr5wxAFHppzc3DgXzfXu61n4vT/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-49">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Figure Drawing Without a Model </h5>
+            <p class="card-text">
+              كتاب رسم الشكل بدون نموذج
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : رون تينر</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1waOvNuIc04E-3YE2iAbjiZ1UFchR7nSp/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-50">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Flowers - The Watercolor Art Pad </h5>
+            <p class="card-text">
+              كتاب الزهور - لوحة فن الألوان المائية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : راشيل سميث</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1BrjqV0HDltjTTPC-Fh7pKqRsiy-JoV7j/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-51">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> FORCE - Drawing Human Anatomy 1st Edition </h5>
+            <p class="card-text">
+              كتاب القوة - رسم تشريح الإنسان الطبعة الأولى
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مجموعة تايلور - فرانسك</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1ikTxsqFq40GhV9nF6srPx8ARnv-Khqf5/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-52">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> How to Draw drawing and sketching objects and environments from your imagination </h5>
+            <p class="card-text">
+              كيفية رسم ورسم الأشياء والبيئات من خيالك
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1TfOqIMcsZeOYmFHCEMUm28YuJMuA3VcV/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-53">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> How to Paint Living Portraits </h5>
+            <p class="card-text">
+              كيف ترسم صور الحية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : روبرت كلارك</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a  target="_blank" href="https://drive.google.com/file/d/1oPf6E-_D5Wz_mq6BtDPglDeOg8EueFvX/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-54">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Ignite the Soul - The Art of Figure Drawing </h5>
+            <p class="card-text">
+              كتاب اشعال الروح - فن رسم الشكل
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1HRx7g-a2N5DOTDqMtpq1GdbPx8MN8goV/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-55">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Love Colored Pencils - How to Get Awesome at Drawing - An Interactive Draw-in-the-Book Journal </h5>
+            <p class="card-text">
+              أحب أقلام الرصاص الملونة - كيف تصبح رائعًا في الرسم - مجلة رسم تفاعلية في الكتاب
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فيفيان ونغ</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1BzqAivR9C12SvoMEbXqaE9uUewZJ1ET7/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-56">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Manga For Dummies </h5>
+            <p class="card-text">
+              كتاب رسم المانغا المخصص للدمى
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/14_9HJtyMtqfo49UWyPH9SyRhU1Wzg5NR/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-57">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Master Techniques for realism using postwork </h5>
+            <p class="card-text">
+              كتاب تقنيات الرسم الواقعي بإستخدام أعمال مصورة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1AMS1drdX0HCbX5P_28yu6ZjUXpp3QEXq/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-58">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Observational Sketching - Hone Your Artistic Skills by Learning How to Observe and Sketch Everyday </h5>
+            <p class="card-text">
+              رسم تخطيطي - صقل مهاراتك الفنية من خلال تعلم كيفية المراقبة والرسم كل يوم
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ماريكو هيكانجي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1m8ELGNRqGlZ2DCtSMGtVSJemC164f2p_/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-59">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Painted Blossoms - Creating Expressive Flower Art with Mixed Media </h5>
+            <p class="card-text">
+              كتاب أزهار ملونة - إنشاء فن زهرة معبرة باستخدام وسائط مختلطة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : كارري سيتشمت</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a  target="_blank" href="https://drive.google.com/file/d/1hUuY8Ev__DlyeUsTGMMV8fhcDjqTlOTj/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-60">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Pen And Ink drawing Workbook </h5>
+            <p class="card-text">
+              كتاب الرسم بالقلم والحبر
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1VTVIR9JSxd6bTVx6ml5nVNWDSEAKfgOm/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-61">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Beginning Pen & Ink - Tips and techniques for learning to draw in pen and ink </h5>
+            <p class="card-text">
+              بداية القلم والحبر - نصائح وتقنيات لتعلم الرسم بالقلم والحبر
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1jAC7d07QWbJJ-f_WXYX_ZcAOPqVazEb5/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-62">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Realistic Still Life In Colored Pencil </h5>
+            <p class="card-text">
+              كتاب الرسم الواقعي للطبيعة الصامتة بإستخدام الأقلام الملونة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1JW0CAX0cJ_Zdk8X6SScM3SIvYYsxrb7M/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-63">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Ron Ranson On Skies - Techniques In Watercolor And Other Media </h5>
+            <p class="card-text">
+              رون رانسون في السماء - تقنيات في الألوان المائية والوسائط الأخرى
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : رون رانسون</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1hZISvd73srO_w5X8jYf3fj2ExPjxFpkO/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-64">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Secrets to Drawing Realistic Faces </h5>
+            <p class="card-text">
+              كتاب أسرار رسم الوجوه الواقعية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1imPylF6nKlOPydnMC_CTFmVKExoYr3aw/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-65">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> The Art Of Ballpoint - Experimentation, Exploration, and Techniques in Ink </h5>
+            <p class="card-text">
+              فن الحبر - التجريب والاستكشاف والتقنيات في الحبر
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1k82ZarOUdvomP5sEAimopsiFeqpZbk_T/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-66">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> The Art of Draw Fu - Beginner Level </h5>
+            <p class="card-text">
+              فن رسم الفو - مستوى المبتدئين
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : لويس إسكوبار</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1NecQyJKRLefUrvruItD_f7egtKnDBNeH/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-67">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> The complete book of drawing techniques - a professional guide for the artist </h5>
+            <p class="card-text">
+              الكتاب الكامل لتقنيات الرسم - دليل محترف للفنان
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1hjtAfsQJY7QQ5eCIxqkhT-Yfh_FSnW_T/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-68">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> The Encyclopedia of Airbrushing Techniques </h5>
+            <p class="card-text">
+              كتاب الموسوعة في إستخدام تقنية البخ
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مايكل لييك</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1imWsyfC9Z10sJe_u9Q_sMsj9y73ctxZ-/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-69">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> The Fundamentals of Drawing Portraits - A Practical and Inspirational Course </h5>
+            <p class="card-text">
+              كتاب اساسيات رسم البورتريهات - دورة عملية وملهمة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : برانغستون باربر</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/179-hLuS0trr3icSUhbHwz7oJBae_9TlG/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-70">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> The Illustrated Story of Art - The Great Art Movements and the Paintings that Inspired them </h5>
+            <p class="card-text">
+              كتاب القصة المصورة للفن - الحركات الفنية العظيمة واللوحات التي ألهمتها
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1-RzPNEZU4Wn_YgUgKZzl9leEVudtjQNW/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-71">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> The Modern Flower Painter - A Guide To Creating Vibrant Botanical Portraits In Water </h5>
+            <p class="card-text">
+              رسام الزهور الحديث - دليل لإنشاء صور نباتية نابضة بالحياة في الماء
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1m_FiKeXZFrDuPcwLdARcpyM_fm5owinl/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+
+        <div class="card" id="pd-72">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: left;"> Watercolor A to Z </h5>
+            <p class="card-text">
+              كتاب الألوان المائية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1yLTEKrDtx2S8oSEvzvUFVW1ftfRLaVDY/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div id="line"></div>
+      
+      
+      
+      </div>
+
+  </main>
+
+  <div id="line"></div>
+  <footer>
+    <div id="footer-header-card">
+      <br>
+      <div class="card mb-3" style="max-width: 1100px;box-shadow: 0px 0px 15px #fff;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="gif/00-footer.gif"
+              alt="..."
+              class="img-fluid"
+              width="50%"
+              style="border-bottom: 2px #000 solid;"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              
+              <h5 class="card-title">مكتبة الفنون التشكيلية</h5>
+              <p class="card-text">
+                ستبقى المكتبة التشكيلية في طريق ضمها لأكبر عدد ممكن من المعارف المخصصة للفنون على مقاييس المدارس و الأكاديميات حول العالم.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">جميع الحقوق محفوظة ©2021 مكتبة الفنون التشكيلية</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-title">
+      <a href="https://andreiabd.github.io/CoderX/index.html" target="_blank"><i class="fas fa-cube"></i> All copyright ©2021 Abdrei Abd | CoderX</a>
+    </div>
+
+  </footer>
+  <!-- back to top btn -->
+  <button 
+    id="back-to-top-btn"
+  >
+    <i class="fas fa-angle-double-up"></i>
+    </button>
+
+  <!--BOOTSTRAP Script-->
+  <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"
+  >
+  </script>
+
+  <script 
+    src="js/javascript.js"
+  >
+  </script>
+  
+</body>
+</html>
