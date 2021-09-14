@@ -10,6 +10,57 @@
 // Linkeden  :  https://www.linkedin.com/in/andreiabd
 // Facebook  :  https://www.facebook.com/andreiaabd/
 
+//back to top button
+
+const backToTopButton = document.querySelector("#back-to-top-btn");
+
+window.addEventListener("scroll", scrollFunction);
+
+function scrollFunction() {
+  if (window.pageYOffset > 300) { // Show backToTopButton
+  if(!backToTopButton.classList.contains("btnEntrance")) {
+    backToTopButton.classList.remove("btnExit");
+    backToTopButton.classList.add("btnEntrance");
+    backToTopButton.style.display = "block";
+  }
+  }
+  else { // Hide backToTopButton
+  if(backToTopButton.classList.contains("btnEntrance")) {
+    backToTopButton.classList.remove("btnEntrance");
+    backToTopButton.classList.add("btnExit");
+    setTimeout(function() {
+    backToTopButton.style.display = "none";
+    }, 250);
+  }
+  }
+};
+
+backToTopButton.addEventListener("click", smoothScrollBackToTop);
+
+function smoothScrollBackToTop() {
+  const targetPosition = 0;
+  const startPosition = window.pageYOffset;
+  const distance = targetPosition - startPosition;
+  const duration = 750;
+  let start = null;
+  
+  window.requestAnimationFrame(step);
+
+  function step(timestamp) {
+  if (!start) start = timestamp;
+  const progress = timestamp - start;
+  window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
+  if (progress < duration) window.requestAnimationFrame(step);
+  }
+}
+
+function easeInOutCubic(t, b, c, d) {
+  t /= d/2;
+  if (t < 1) return c/2*t*t*t + b;
+  t -= 2;
+  return c/2*(t*t*t + 2) + b;
+};
+
 var 
 btnMainPage = document.getElementById("btnmain-main"),
 btnNaveReport = document.getElementById("btn-nave-report"),
@@ -32,7 +83,7 @@ btnCloseArticle4 = document.getElementById("btnarticle4-close"),
 btnCloseArticle5 = document.getElementById("btnarticle5-close"),
 btnCloseArticle6 = document.getElementById("btnarticle6-close"),
 btnDrawingPaint = document.getElementById("btn-paintig-and-drawing"),
-btnContentsDrawingPainting = document.getElementById("btn-contents-paint"),
+//contentDrawingAndPainting = document.getElementById("content-drawing-and-painting"),
 btnNaveBarPlsticArt = document.getElementById("btn-nave-plastict-art"),
 btnPrintmaking = document.getElementById("btn-printmaking"),
 btnPrintmakinContent = document.getElementById("btn-contents-printmaking"),
@@ -283,56 +334,6 @@ if (x.style.display == "block"){
  }
 };
 
-//back to top button
-
-const backToTopButton = document.querySelector("#back-to-top-btn");
-
-window.addEventListener("scroll", scrollFunction);
-
-function scrollFunction() {
-  if (window.pageYOffset > 300) { // Show backToTopButton
-  if(!backToTopButton.classList.contains("btnEntrance")) {
-    backToTopButton.classList.remove("btnExit");
-    backToTopButton.classList.add("btnEntrance");
-    backToTopButton.style.display = "block";
-  }
-  }
-  else { // Hide backToTopButton
-  if(backToTopButton.classList.contains("btnEntrance")) {
-    backToTopButton.classList.remove("btnEntrance");
-    backToTopButton.classList.add("btnExit");
-    setTimeout(function() {
-    backToTopButton.style.display = "none";
-    }, 250);
-  }
-  }
-};
-
-backToTopButton.addEventListener("click", smoothScrollBackToTop);
-
-function smoothScrollBackToTop() {
-  const targetPosition = 0;
-  const startPosition = window.pageYOffset;
-  const distance = targetPosition - startPosition;
-  const duration = 750;
-  let start = null;
-  
-  window.requestAnimationFrame(step);
-
-  function step(timestamp) {
-  if (!start) start = timestamp;
-  const progress = timestamp - start;
-  window.scrollTo(0, easeInOutCubic(progress, startPosition, distance, duration));
-  if (progress < duration) window.requestAnimationFrame(step);
-  }
-}
-
-function easeInOutCubic(t, b, c, d) {
-  t /= d/2;
-  if (t < 1) return c/2*t*t*t + b;
-  t -= 2;
-  return c/2*(t*t*t + 2) + b;
-};
 
 btnDrawingPaint.onclick = ()=>{
   var x = document.getElementById("plastic-art-books-drawing-painting");
@@ -347,14 +348,14 @@ btnDrawingPaint.onclick = ()=>{
   }
 };
 
-btnContentsDrawingPainting.onclick = ()=>{
-  var x = document.getElementById("content-drawing-and-painting");
-  if (x.style.display == "none"){
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-};
+// btnContentsDrawingPainting.onclick = ()=>{
+//   var x = document.getElementById("content-drawing-and-painting");
+//   if (x.style.display == "none"){
+//     x.style.display = "block";
+//   } else {
+//     x.style.display = "none";
+//   }
+// };
 
 btnNaveBarPlsticArt.onclick = ()=>{
   var x = document.getElementById("books-of-plastic-arts");
@@ -648,4 +649,22 @@ var Alert = new CustomAlert();
 
 onload = ()=>{
   Alert.render('<img src="gif/00-footer.gif" width="40%" alt=""><br><p dir="rtl"><strong>مرحباً بك في مكتبة الفنون التشكيلية!</strong></p><p dir="rtl">المكتبة الإلكترونية المخصصة لأبحاث و مقالات الفنون التشكيلية بصفة عامة</p><strong><p>لا تنسى متابعة صفحة الموقع على <a href="https://www.facebook.com/fineartlibrarybooks/" target="blank">الفيس بوك</a></p></strong>');
+}
+/* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+function openNav() {
+  document.getElementById("mySidenav").style.width = "280px";
+  document.getElementById("main").style.marginLeft = "280px";
+}
+
+/* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft = "0";
+}
+function openContentArtDrawing() {
+  if (document.getElementById("content-drawing-and-painting").style.display == "none"){
+    document.getElementById("content-drawing-and-painting").style.display = "block";
+  } else {
+    document.getElementById("content-drawing-and-painting").style.display = "none";
+  }
 }
