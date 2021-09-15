@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="ar">
   <head>
@@ -89,6 +90,7 @@
         document.getElementById("main").style.marginLeft = "0";
       }
     </script>
+
     <!--CSS-->
     <link 
       rel="stylesheet" 
@@ -100,11 +102,6 @@
       <img src="gif/loader-fineartlibrary-all.gif"/>
   </div>
   <header>
-    <div id="dialogoverlay"></div>
-    <div id="dialogbox">
-      <div id="dialogboxbody"></div>
-      <div id="dialogboxfooter"></div>
-    </div>
     <div id="header-title">
       <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -123,13 +120,31 @@
             قائمة الكتب
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+            <li><a class="dropdown-item" href="fineartbooksallartists.html"><i class="fa fa-book"></i> كتب الرسم و التصوير</a></li>
+            <li><a class="dropdown-item" href="printMakingAllArtist.html"><i class="fa fa-book"></i> كتب الحفر و الطباعة</a></li>
+            <li><a class="dropdown-item" href="carvingAllPlasticArtists.html"><i class="fa fa-book"></i> كتب النحت</a></li>
+            <li><a class="dropdown-item" href="colorBooksForArtists.html"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="prespectiveAllBooksForArtists.html"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="AnatomyBooksForArtists.html"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="designForArtists.html"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="philasophyAllBooksForArtists.html"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="educationBooksForArtists.html"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأنماط 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> المدارس الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الإتجاهات التشكيلية</a></li>
           </ul>
         </div>
         <div class="dropdown">
@@ -144,13 +159,9 @@
             قائمة المقالات 
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> القراءة الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مقالات متفرقة</a></li>
           </ul>
         </div>
         <div class="dropdown">
@@ -162,16 +173,13 @@
             aria-expanded="false"
             style="direction: ltr;"
           >
-            قائمة الأعلام و الرواد
+            قائمة الفنانين
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> العراق</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> لبنان</a></li>
           </ul>
         </div>
         <div class="dropdown">
@@ -183,37 +191,12 @@
             aria-expanded="false"
             style="direction: ltr;"
           >
-            قائمة المدارس 
+            قائمة الأكاديميات
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
-          </ul>
-        </div>
-        <div class="dropdown">
-          <button
-            class="btn btn-primary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-mdb-toggle="dropdown"
-            aria-expanded="false"
-            style="direction: ltr;"
-          >
-            قائمة الحركات
-          </button>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الصين</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> أمريكيا</a></li>
           </ul>
         </div>
         <div class="dropdown">
@@ -228,26 +211,23 @@
             قائمة المتاحف
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفنون التشكيلية</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب اللون</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
-            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
           </ul>
         </div>
         <div id="line"></div>
-        <a href="#"><i class="fas fa-cogs"></i> سياسة الموقع</a>
-        <a href="#"><i class="fas fa-cogs"></i> حول الموقع</a>
-        <a href="#"><i class="fas fa-cogs"></i> مواقع ذات صلة</a>
+        <a href="whoWeAre.html"><i class="fas fa-cogs"></i> من نحن</a>
+        <a href="abotTheSite.html"><i class="fas fa-cogs"></i> حول الموقع</a>
+        <a href="smillerSitesByX.html"><i class="fas fa-cogs"></i> مواقع ذات صلة</a>
+        <a href="reportAdminProblems.html"><i class="fas fa-cogs"></i> التبليغ عن المحتوى</a>
         <div id="line"></div>
         <br>
       </div>
       
       <!-- Use any element to open the sidenav -->
       <div class="headerElementsFixed">
-        <button style="font-size:15px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-right"></i> القائمة الرئيسية</button>
+        <button id="" style="font-size:15px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-right"></i> القائمة الرئيسية</button>
         <a href="#content-drawing-and-painting">
           <button class="btn" onclick="openContentArtDrawing()" id="btn-contents-paint"><i class="fas fa-align-right"></i> الفهرس</button>
         </a>
