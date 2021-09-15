@@ -1,0 +1,1933 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!--Powered | CoderX ©2021 | Andrei Abd
+    █▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
+    █▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
+    CODER X |تم تصميم الموقع و برمجته من قبل اندريه عبد
+    mail      :  usr.g0a1@gmial.com
+    CoderX    :  https://coderx-project.blogspot.com/
+    Whatsapp  :  +963934820511
+    Pinterest :  https://www.pinterest.com/andreiabd93
+    Instagram :  https://www.instagram.com/andrei_abd/
+    Linkeden  :  https://www.linkedin.com/in/andreiabd
+    Facebook  :  https://www.facebook.com/andreiaabd/
+    -->
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap" 
+      rel="stylesheet"
+    />
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
+    <!--Arabic Language-->
+    <meta 
+      charset="UTF-8"
+    >
+
+     <!--Devices All Screen-->
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0"
+    >
+    
+    <!--Web Site icon-->
+    <link  
+      rel="icon" 
+      href="png/00-logo.png"
+    />
+    
+  	<!--Google Search Console-->
+    <meta 
+      name="google-site-verification" 
+      content="44SR0WJt3L5SBIYr8qvqmbd-_7buOW_hQIVqcSoTkPs" />
+  
+    <!--Web Site SEO & Description & Tittle-->
+    <meta 
+      name="description" 
+      content="Fine Art Library - مكتبة الفنون التشكيلية">
+    <meta 
+      name="keywords" 
+      content="Art, Fin Art, Books, Library, painting, paint, printmaking, print, sculpture, carving, artist, museums, exhibition,فنون جميلة , فن.فنون بصرية, نحت, إعلان, رسم, كتب, علوم فنية, فنون تشكيلية, فنانين, متاحف">
+      <title>Fine Art Library</title>
+    
+    <!--Loader image-->
+    <script
+      src="js/loader.js"
+    >
+    </script>
+    <!--Side Nave Bar-->
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "280px";
+        document.getElementById("main").style.marginLeft = "280px";
+      }
+
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+    <!--CSS-->
+    <link 
+      rel="stylesheet" 
+      href="css/style.css"
+    >
+  </head>
+<body>
+  <div class="loader">
+      <img src="gif/loader-fineartlibrary-all.gif"/>
+  </div>
+  <header>
+    <div id="header-title">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div id="line"></div>
+        <a href="index.html"><i class="fas fa-cogs"></i> الصفحة الرئيسية</a>
+        <div id="line"></div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الكتب
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="fineartbooksallartists.html"><i class="fa fa-book"></i> كتب الرسم و التصوير</a></li>
+            <li><a class="dropdown-item" href="printMakingAllArtist.html"><i class="fa fa-book"></i> كتب الحفر و الطباعة</a></li>
+            <li><a class="dropdown-item" href="carvingAllPlasticArtists.html"><i class="fa fa-book"></i> كتب النحت</a></li>
+            <li><a class="dropdown-item" href="colorBooksForArtists.html"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="prespectiveAllBooksForArtists.html"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="AnatomyBooksForArtists.html"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="designForArtists.html"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="philasophyAllBooksForArtists.html"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="educationBooksForArtists.html"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأنماط 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> المدارس الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الإتجاهات التشكيلية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المقالات 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> القراءة الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مقالات متفرقة</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الفنانين
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> العراق</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> لبنان</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأكاديميات
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الصين</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> أمريكيا</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المتاحف
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
+          </ul>
+        </div>
+        <div id="line"></div>
+        <a href="whoWeAre.html"><i class="fas fa-cogs"></i> من نحن</a>
+        <a href="abotTheSite.html"><i class="fas fa-cogs"></i> حول الموقع</a>
+        <a href="smillerSitesByX.html"><i class="fas fa-cogs"></i> مواقع ذات صلة</a>
+        <a href="reportAdminProblems.html"><i class="fas fa-cogs"></i> التبليغ عن المحتوى</a>
+        <div id="line"></div>
+        <br>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <div class="headerElementsFixed">
+        <button style="font-size:15px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-right"></i> القائمة الرئيسية</button>
+        <a href="#content-criticism">
+            <button class="btn" onclick="openCriticism()" id="btn-contents-printmaking"><i class="fas fa-align-right"></i> الفهرس</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div id="fixSpaceBlank"><!----></div>
+  <div id="line"><!----></div>
+
+  <main>
+      <!-- Criticism Book -->
+      <div id="plastic-art-books-criticism">
+        <div id="line"></div>
+        <nav class="navbar" id="mainpage-navebar">
+          <p> <i class="fas fa-book-open"></i> الفلسفة و النقد الفني :</p>
+        </nav>        
+        <div id="content-criticism">
+          <div class="card">
+            <div class="card-body">
+              <br><br>
+              <p class="card-text" style="font-weight: bold;text-align: left;">
+                <div id="line"></div>
+                <a href="#pcr-1">الفن التشكيلي السوري - تاريخه و تحولاته و نقده</a>
+                <div id="line"></div>
+                <a href="#pcr-2">بيكاسو و توظيف القص و اللصق في النحت التكعيبي التركيبي</a>
+                <div id="line"></div>
+                <a href="#pcr-3">دور الفراغ في الفنون التشكيلية المعاصرة كمدخل لتدريس الأشغال الفنية</a>
+                <div id="line"></div>
+                <a href="#pcr-4">المفاهيم الفلسفية للتجريدية العضوية</a>
+                <div id="line"></div>
+                <a href="#pcr-5">رمزية الحيوان في الفن التشكيلي الجزائري - أعمال الفنان حسين الزياني</a>
+                <div id="line"></div>
+                <a href="#pcr-6">الأرسومات الزجاجية العربية وتعالق الصورة و الكتابة</a>
+                <div id="line"></div>
+                <a href="#pcr-7">تجليات الفن التشكيلي في المغرب العربي</a>
+                <div id="line"></div>
+                <a href="#pcr-8">أثر الفنون الإسلامية في أعمال فن التصوير الحديث و المعاصر</a>
+                <div id="line"></div>
+                <a href="#pcr-9">أثر الفن السياسي على الفنون البصرية و التشكيلية المعاصرة في الخليج</a>
+                <div id="line"></div>
+                <a href="#pcr-10">الدراسات النظرية في الفن التشكيلي</a>
+                <div id="line"></div>
+                <a href="#pcr-11">الصوفية في الرسم الحديث</a>
+                <div id="line"></div>
+                <a href="#pcr-12">الحضور و الغياب في الفن التشكيلي من البدائي لعصر النهضة</a>
+                <div id="line"></div>
+                <a href="#pcr-13">الفن التشكيلي في مصر بين الإلمام و الألم</a>
+                <div id="line"></div>
+                <a href="#pcr-14">الشكل و المضمون في اللوحة الحديثة دراسة تاريخية و تحليلية</a>
+                <div id="line"></div>
+                <a href="#pcr-15">ابراهيم الصلحي و صناعة الحداثوية الأفريقية و العابرة</a>
+                <div id="line"></div>
+                <a href="#pcr-16">دراسات في علم اجتماع الفن</a>
+                <div id="line"></div>
+                <a href="#pcr-17">لون يجمع البصر - نصوص و حوارات في الفن التشكيلي</a>
+                <div id="line"></div>
+                <a href="#pcr-18">المرجعية الجمالية - دلالتها و طبيعة تحققها في العمل الفني</a>
+                <div id="line"></div>
+                <a href="#pcr-19">التوظيف الجمالي للفن الإسلامي في لوحات المستشرقين المعاصرين</a>
+                <div id="line"></div>
+                <a href="#pcr-20">تأثير اللوحة التشكيلية في السيرة الذاتية - أثقل من رضوى</a>
+                <div id="line"></div>
+                <a href="#pcr-21">تفاعلات التعبير الفني بين التصوير الفتوغرافي و التشكيل المعاصر</a>
+                <div id="line"></div>
+                <a href="#pcr-22">المعرض العام للفنون</a>
+                <div id="line"></div>
+                <a href="#pcr-23">مفهوم التجريد كمنطلق منهج النقد الشكلي في مجال التصوير</a>
+                <div id="line"></div>
+                <a href="#pcr-24">فاعلية الصراع في اللوحة التشكيلية</a>
+                <div id="line"></div>
+                <a href="#pcr-25">الرموز الشكلية و البصرية في العمل التصويري المعاصر - قراءة تحليلية للنص البصري</a>
+                <div id="line"></div>
+                <a href="#pcr-26">تجريد الفن من النزعة الإنسانية</a>
+                <div id="line"></div>
+                <a href="#pcr-27">الحروفية العربية - الهواجس و الإشكالات</a>
+                <div id="line"></div>
+                <a href="#pcr-28">مطالعات في الفن التشكيلي العالمي - أعلام و مدارس و تيارات فنية</a>
+                <div id="line"></div>
+                <a href="#pcr-29">التكوينات الحروفية في اللوحات التصويرية</a>
+                <div id="line"></div>
+                <a href="#pcr-30">لإبداع الفني و الأدبي لصورة المرأة في الفنون التشكيلية و فن الأدب و الشعر</a>
+                <div id="line"></div>
+                <a href="#pcr-31">الشعر العباسي و الفن التشكيلي</a>
+                <div id="line"></div>
+                <a href="#pcr-32">إشكالية اللاموضوعية - المعادل الهندسي في تجربة كاندنسكي الغنائية</a>
+                <div id="line"></div>
+                <a href="#pcr-33">هل للوحة ما يرى؟</a>
+                <div id="line"></div>
+                <a href="#pcr-34">جمالية الحدس في الفن الإسلامي لدى الفنان التشكيلي السعودي المعاصر</a>
+                <div id="line"></div>
+                <a href="#pcr-35">التجليات التجريدية في أعمال محمد خدة</a>
+                <div id="line"></div>
+                <a href="#pcr-36">الحرية و الإبداع و علاقتهما بمفاهيم الفن و الجمال</a>
+                <div id="line"></div>
+                <a href="#pcr-37">إشكالية التواصل مع التراث في الأعمال الفنية</a>
+                <div id="line"></div>
+                <a href="#pcr-38">مدارس الفن التشكيلي</a>
+                <div id="line"></div>
+                <a href="#pcr-39">دراسات في الفنون التشكيلية</a>
+                <div id="line"></div>
+                <a href="#pcr-40">تشكيل</a>
+                <div id="line"></div>
+                <a href="#pcr-41">تطبيقات المنهج السميولوجي في قراءة اللوحة التشكيلية - دراسة ظاهراتية</a>
+                <div id="line"></div>
+                <a href="#pcr-42">اللوحة التشكيلية في الجزيرة السورية - ظلال الألوان، فضاءات الإنتماء</a>
+                <div id="line"></div>
+                <a href="#pcr-43">التصوير الشعبي العربي</a>
+                <div id="line"></div>
+                <a href="#pcr-44">نسق التواصل و المثاقفة في الفن التشكيلي العراقي المعاصر</a>
+                <div id="line"></div>
+                <a href="#pcr-45">فلسفة الفن - مدخل إلى علم الجمال</a>
+                <div id="line"></div>
+                <a href="#pcr-46">تجليات العلامة في الفن التشكيلي</a>
+                <div id="line"></div>
+                <a href="#pcr-47">التجريد في الجزائر</a>
+                <div id="line"></div>
+                <a href="#pcr-48">التجريدية بين الفنين الإسلامي و الغربي</a>
+                <div id="line"></div>
+                <a href="#pcr-49">تطور الحركة التشكيلية في الجزائر</a>
+                <div id="line"></div>
+                <a href="#pcr-50">شعرية اللون في رسومات كاندنسكي</a>
+                <div id="line"></div>
+                <a href="#pcr-51">دلالة الصورة الفنية - دراسة تحليلية سيميولوجية لمنمنمات محمد راسم</a>
+                <div id="line"></div>
+                <a href="#pcr-52">اللوحة الفنية بين التحليل و النقد</a>
+                <div id="line"></div>
+                <a href="#pcr-53">تذوق الجمال في عناصر الفن التشكيلي</a>
+                <div id="line"></div>
+                <a href="#pcr-54">الصورة الشعرية في اللوحة التشكيلية</a>
+                <div id="line"></div>
+                <a href="#pcr-55">التلقي في الفن التشكيلي - دراسة نقدية</a>
+                <div id="line"></div>
+                <a href="#pcr-56">واقع الفنون التشكيلية في التكوين الجامعي الجزائري</a>
+                <div id="line"></div>
+                <a href="#pcr-57">التصوير الإستشراقي في الجزائر خلال القرن التاسع عشر</a>
+                <div id="line"></div>
+                <a href="#pcr-58">التعرف على سمات المدرسة التكعيبية و تحليل لبعض أعمال الفنان بابلو بيكاسو</a>
+                <div id="line"></div>
+                <a href="#pcr-59">قراءة الصورة التشكيلية بين الحقيقة و الإيحاء</a>
+                <div id="line"></div>
+                <a href="#pcr-60">شهرزاد في التشكيل و الرسم</a>
+                <div id="line"></div>
+                <a href="#pcr-61">العملية الإبداعية في فن التصوير</a>
+                <div id="line"></div>
+                <a href="#pcr-62">تحولات الشكل في لوحات موندريان</a>
+                <div id="line"></div>
+                <a href="#pcr-63">دلالة الشكل دراسة في الإستطيقا الشكلية و قراءة في كتاب الفن</a>
+                <div id="line"></div>
+                <a href="#pcr-64">تذوق الجمال في العمل الفني</a>
+                <div id="line"></div>
+                <a href="#pcr-65">فن الباروك</a>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- all books -->
+        <div class="card" id="pcr-1">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الفن التشكيلي السوري - تاريخه و تحولاته و نقده</h5>
+            <p class="card-text">
+              إن القضية الرئيسية المطروحة في الملف الراهن - سواء أكان ذلك
+               بصورة صريحة أم ضمنية - تتعلق أساساً بجانب من جوانب الهوية الثقافية، الهوية البصرية للفن التشكيلي
+               السوري الحديث و المعاصر، وما يتفرع عن ذلك من مسائل على ارتباط باللغة التشكيلية أو الفنية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/14VqLyD_LrLNeOKqn6Xwo-hCum7PVlCRV/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-2">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">بيكاسو و توظيف القص و اللصق في النحت التكعيبي التركيبي</h5>
+            <p class="card-text">
+              هدفت هذه الدراسة البحثية القصيرة إلى تعرف بعض أعمال الفنان بيكاسو
+               بوصفه واحد من الأسماء الشهيرة في الفن الحديث و خاصة في مجال النحت و كيفية بداياته التي ولدت الإلهامات
+               و الأفكار الإبداعية لديه التي بدأت بالتصوير، و انتهت بخلق أشكال فريدة في الفراغ لم يسبقه عليها أحد
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1e0CwY2MUwwRseJ_oqAvcBrs0qVMCF-Ua/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-3">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">دور الفراغ في الفنون التشكيلية المعاصرة كمدخل لتدريس الأشغال الفنية</h5>
+            <p class="card-text">
+              يقوم هذا البحث على بيان مدى أهمية الفراغ في مجال الأشغال الفنية ويتضمن التتبع
+               التاريخي لمصطلح الفراغ بجانب مفهوم الفراغ في الفن التشكيلي و أنواعه المختلفة من إيهامي و حقيقي بجانب 
+              البعد العلمي و الفلسفي و الجمالي لمفهوم الفراغ و القيم الشكيلية للفراغ من خلال العصور
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : هبة البواب</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1bS6MpmVnEisWwjbauoK0JWSfSPNuXiDx/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-4">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">المفاهيم الفلسفية للتجريدية العضوية</h5>
+            <p class="card-text">
+              من الملاحظ أن الأسلوب التجريدي يتجنب محاكاة العناصر،
+               ويثير استجابات جمالية للعلاقات التشكيلية بين المساحات و الأبعاد و الالوان لما لها من مقومات فنية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : طاهر نور الدين</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1bS6MpmVnEisWwjbauoK0JWSfSPNuXiDx/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-5">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">رمزية الحيوان في الفن التشكيلي الجزائري - أعمال الفنان حسين الزياني</h5>
+            <p class="card-text">
+              يعتبر الفن إنتاجاً إبداعياً للإنسان حيث يشكل فيه مواد ليعبر عن أفكاره أو يترجم أحاسيسه أو ما يراه من صور و أشكال
+               و رموز ليجسدها في عمله الفني، حيث أحاط البشر منذ القديم أنفسهم دائماً وما زالو بالرموز و لايزالون حتى الأن
+               يحافظون على هذه الرغبة فسواء كنا نقرأ أو نسير أو نشاهد تقع أبصارنا على رموزلكن لا نعيرها الكثير من الإنتباه
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : طاهر نور الدين</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1dqIioDS-9coxGamDtgDMoYc_l_lTopJw/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-6">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الأرسومات الزجاجية العربية وتعالق الصورة و الكتابة</h5>
+            <p class="card-text">
+              تتعرض هذه الدراسة لمباحثة طبيعة العلاقة بين الصورة و النص المكتوب في المدونة
+               التراثية لفن الرسم على الزجاج بالعالم العربي انطلاقا من حالته في تونس، قبل مجيء المعمرين الغربيين
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : خليل قويعة</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1kyDasB_aRr5k3Lh3k-C8OhdFM-vQXEbK/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-7">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تجليات الفن التشكيلي في المغرب العربي</h5>
+            <p class="card-text">
+              لم يعرف المغرب اللوحة التشكيلية المسندة إلا في بداية القرن العشرين،
+               وبالضبط سنه 1920م، متأثراً في ذلك باللوحة الغربية المسندة التي ظهرت إبان المرحلة التشكيلية
+               الكلاسيكية، وقد حقق هذا التأسيس بواسطة الإحتكاك بالغرب، و المثاقفة معه من داخل المغرب العربي
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جميل حمداوي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1L6HT2YTSuXL8l7g2epLaJzc9oJKlu3Ub/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-8">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">أثر الفنون الإسلامية في أعمال فن التصوير الحديث و المعاصر</h5>
+            <p class="card-text">
+              يتناول البحث تأثيرات الفنون الإسلامية على ما أبدعه الفنانون العرب و
+               الغربيون من أعمال تشكيلية استوحت روح الفن الذي جاء به الفنان المسلم عبر العصور الحضارة الإسلامية
+               و ما خلفوه من أثار باقية في العمارة الإسلامية و الزخارف المستمدة من الأشكال المجردة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : منى عليوه</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1K0CiRuh_ubt1w7Ti1kpNodZXBU8qi29p/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-9">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">أثر الفن السياسي على الفنون البصرية و التشكيلية المعاصرة في الخليج</h5>
+            <p class="card-text">
+              في الوقت الذي تكثر فيه
+               الأزمات السياسية و الإنسانية، يحاول بعض الفنانين المشاركة في الأحداث التي تجري حولهم في المجتمعات،
+               و غالباً ما يستغلون مواهبهم و رؤيتهم الفنية الفريدة في التعبير عن أصوات و أراء المهمشين
+               و الأقليات دفاعاً عن حقوق الإنسان ضد مظاهر الظلم المجتمعية أو للعتبير عن وجهات النظر الخاصة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عبير الغانم</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1IhfGqQu7ZQELts-FeM3lZKcyW0AtS0NZ/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-10">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الدراسات النظرية في الفن التشكيلي</h5>
+            <p class="card-text">
+              تعتبر الدراسات النظرية في الفنون التشكيلية
+               واحدة من الأشياء التي يعتمد عليها الفنان في تطوير مقدراته و أساليبه و القدرة على الفحص الدقيق
+               لتجاربه و تجارب غيره و رؤية المشاكل التي تواجه العمل الفني و تمييز الشيء الجديد المبتكر
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1UIGph3frdcJGjZJcUoOKv9V5NmwBYsJB/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-11">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الصوفية في الرسم الحديث</h5>
+            <p class="card-text">
+              يعد الفن الحديث من أكثر الفنون إثارة للجدل والأسئلة، في ضوء تمترسه خلف مقولات فلسفية و رؤى فكرية رافقت منجزه
+               العياني منذ البداية، بوصفها محركات نظرية و موجهات يتحرك من خلالها و على أساسها الشكل المتحقق
+               عبر سلسلته الزمنية و لعل فعل أفلاطون و ديكارت و كانط و و برجسون ماثلة بقوة في هذا المنجز
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جواد الزيدي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1UVBl9BNzbtYOd6Ut4kH0vkLHQEDEQdhb/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-12">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الحضور و الغياب في الفن التشكيلي من البدائي لعصر النهضة</h5>
+            <p class="card-text">
+              وصلت إلينا رسالة الإنسان البدائي مخربشة على جدرانه الكهفية معبراً عن نشاط القنص و القتال و
+               بعض تماثيل حجرية متشكلة لدمى نسائية فيها مبالغة في البدانة لنماطق الأنوثة و الأمومة - فينوس العصر الحجري
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1cJVqOsiHkGUHEaT7T7gUGGdlwNAR14sE/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-13">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الفن التشكيلي في مصر بين الإلمام و الألم</h5>
+            <p class="card-text">
+              ما يعاصره الشخص العادي من أحداث يراه الفنان التشكيلي من زواية أخرى،
+               فالفنان التشكيلي ذو طبيعة خاصة للتعايش و المعايشة، في التعبير عما يعاصره وما يتأثر به و أثر على مجتمعه
+               بشكل مباشر أو غير مباشر، فهو أول من يحرص على التعبير عن رؤيته وفلسفته بأسلوبه و أدواته الخاصة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/13t5pv4Pg6zXLM_4X6UOLHwZQWTPBzfFH/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-14">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الشكل و المضمون في اللوحة الحديثة دراسة تاريخية و تحليلية</h5>
+            <p class="card-text">
+              هدف الدراسة إلى التعمق في معرفة الشكل و المضمون في اللوحة الحديثة،
+               و استقراء حفرياتهما الفلسفية و الفنية على أساس الجدل الذي دار في الأوساط المعنية حولهما من جهة
+               و على أساس اثرهما الفعال في سياق تشكيل اللوحة على مستوى البناء الفني لها من جهة ثانية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عبد الناصر رجوب</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1bSF5997PQ10p8YK3l942EvXQeDTYwxd2/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-15">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">ابراهيم الصلحي و صناعة الحداثوية الأفريقية و العابرة</h5>
+            <p class="card-text">
+              ظل الفنان التشكيلي السوداني ابراهيم الصلحي أحد أهم رواد
+               الحداثوية تكمن مساهمته الأساسية في تأسيس الحركة الحداثوية الإفريقية في الفنون البصرية و المرئية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ابراهيم الصلحي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1w12aYeOIDUKghI8LW0fu8h5L4X91uNSL/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-16">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">دراسات في علم اجتماع الفن</h5>
+            <p class="card-text">
+              رغم أن الكلمة تبدو عند البعض غاية في البداهة فهي تستخدم في سياقات عديدة لتصف بها
+               مشاعرنا تجاه ما يبدو بالنسبة لنا مثيراً للبهجة و المتعة - هكذا يقاس المصطلح بما يعرف علم الجمال
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1f7m5U6sI_ncDhP4X7jBNC1bM2VnbHWRY/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-17">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">لون يجمع البصر - نصوص و حوارات في الفن التشكيلي</h5>
+            <p class="card-text">
+                الموجة كشكل يكونه اللون، أو هي
+               إستعارة تستمد أصولها من مشاهد بصرية يومية يفاجأ بها المرء في الشارع أو في ما ينتجه الفنان الشعبي،
+               وذلك يصب في توسيع حرية المشاهدة للفرد العربي البسيط و في تعميق مقدرته على الأختبار لما يحيط به
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1PVth5drnvXxrhP74awA3DULi0dJQonre/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-18">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">المرجعية الجمالية - دلالتها و طبيعة تحققها في العمل الفني</h5>
+            <p class="card-text">
+              تنطلق هذه الدراسة لمعاينة و قراءة اصطلاح -
+               المرجعية الجمالية، بعده تمثيلا أصيلا يتخذ صفة النموذج أو المثال، وهو يعني ذلك النتاج المادي أو الحسي أو
+               المتحقق وفق تصور ذهني وفكري، و الذي اكتسب وجوده القيمي بفعل طبيعته وإنشائه الفريد تاريخياً
+               و زمنياً، حيث يحيل في علاقته التجريبية مع العمل الفني إلى معان معينة و دلالات خاصة و متعددة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : سعد قصاب</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Y1t6LxtlskGnmqy7qGpxvH_Ir7LJvLx3/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-19">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التوظيف الجمالي للفن الإسلامي في لوحات المستشرقين المعاصرين</h5>
+            <p class="card-text">
+              يعني هذا البحث بدراسة التوظيف الجمالي للفن الإسلامي في لوحات المستشرقين المعاصرين فقد خصص الجزء الأول من
+               البحث لبيان مشكلة البحث و أهميته و الحاجة إليه و أهدافه وحدوده و تحديد أهم المصطلحات الواردة فيه
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : نجلاء المقطوف </small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1yNSqh7v5romVsZdblGyFmMDpSsRvJcqU/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-20">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تأثير اللوحة التشكيلية في السيرة الذاتية - أثقل من رضوى</h5>
+            <p class="card-text">
+              الموجة كشل يكونه اللون،
+               أو هي إستعارة تستمد أصولها من مشاهد بصرية يومية يفاجأ بها المرء في الشارع أو في ما ينتجه الفنان الشعبي،
+               وذلك يصب في توسيع حرية المشاهدة للفرد العربي البسيط و في تعميق مقدرته على الأختبار لما يحيط به
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Untk-y9CCI7-R87zuPMMrleiyDtf41ut/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-21">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تفاعلات التعبير الفني بين التصوير الفتوغرافي و التشكيل المعاصر</h5>
+            <p class="card-text">
+              تتناول هذه الدراسة الأنماط الجديدة من التعبير الفني و المكتسبة من طبيعة
+               الإرتباط بين تقنيات التصوير الفوتوغرافي، و الفنون التشكيلية المعاصرة - الرسم و التصوير نموذجاً
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1b-eRg6gPyufET790ccbSstUF73NROyg-/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-22">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">المعرض العام للفنون</h5>
+            <p class="card-text">
+              يعتبر المعرض العام للفنون التشكيلية وثيقة تسجيل لتطور حركة
+               الفن التشكيلي في مصر و في دورته الثالثة و الثلاثين لهذا العام يقدم حوالي مائتين و خمسين فنان
+               رؤى متنوعة تمثل مختلف الإتجاهات الفنية و التقنية و التي تحقق الأبعاد التشكيلية و الإستطيقية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/14VKhlzD7ITJBD9wGT9AsNLyb9WzGai-P/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-23">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">مفهوم التجريد كمنطلق منهج النقد الشكلي في مجال التصوير</h5>
+            <p class="card-text">
+              يهدف البحث الحالي إلى توظيف مفهوم التجريد في منهج النقد التشكيلي،
+               لتطوير الجانب التطبيقي له داخل مناهج النقد و التذوق الفني، و تكمن أهمية ذلك في إدراك مفهوم
+               التجريد كمحور رئيسي يعمل على عزل العمل الفني عن محيطه، وبالتالي يمكن تطبيق النقد الشكلي على
+               الأعمال الفنية المتعددة في مجال التصوير، لتحليل و استخلاص الصياغات الفنية في الأعمال التشكيلية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1QWJeEQzzyd0BhlHSJMqFMF1DjWC6bekg/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-24">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">فاعلية الصراع في اللوحة التشكيلية</h5>
+            <p class="card-text">
+              يشغل البحث على قراءة دالة الصراع، بوصفها أداة فاعلة في اللوحة التشكيلية،
+               تحيل إلى استنطاق مكنون النص التشكيلي، إذ تكمن أهمية قراءة العينات بتسليط الضوؤ
+               على المدلولات التي تحيل إلى الصراع في اللوحة، بوصفها نص قابل للقراءة و التأوييل
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : أحمد قتيبة</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/13twRS6QO3MJoFE72F3grPgHHW-FOGnqk/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-25">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الرموز الشكلية و البصرية في العمل التصويري المعاصر - قراءة تحليلية للنص البصري</h5>
+            <p class="card-text">
+              يهدف هذا البحث إلى تقديم قراءة تحليلية للنص البصري في العمل التصويري المعاصر من منظور تجربة الفنان الشخصية،
+               وتتبلور مشكلة البحث بشكل عام في قلة الكتابات أو الدراسات العلمية التي يكتبها الفنانون عن أنفسهم
+               أو عن تجاربهم الفنية فتبقى عملية فهم أفكارهم و رؤاهم مقتصرة على تأويلات و وجهات نظر النقاد
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فخرية اليحياني</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1dW3X9vRYr1KuzTu6-ag7rNy5NDa7UIWg/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-26">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تجريد الفن من النزعة الإنسانية</h5>
+            <p class="card-text">
+              يعد الفيلسوف الفرنسي غوييو ذا أفكار
+               رائعة، لكن لم يتم صقلها بصورة ملائمة كفكرة دراسة الفن من وجهة نظر اجتماعية بادئ ذي بدء قد يخطر
+               في بال أحدهم أن مناقشة موضوعاً كهذا هو أمر عقيم، ذلك أن النظر إلى الفن ودراسته من حيث تأثيراته
+               الإجتماعية أشبه بمن ينتزع ورقة الفجل من التراب تاركاً ثمرها أو بمن يدرس الإنسان من حيث ظله
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : خوسيه أورتيغا إي غاسيت</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1gED0bnOMj5nZ1f5l7_sOjtqtzPwcj68x/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-27">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الحروفية العربية - الهواجس و الإشكالات</h5>
+            <p class="card-text">
+              بداية لا بد من الإقرار، أن الخط العربي، يعد من العناصر و المفردات البصرية القادرة على التجاوب مع الفنان التشكيلي و
+               مساعدته للقيام باستنهاض معمار تشكيلي جديد و متفرد، نظرا لما يتمتع به من خصائص وصفات تتيح لهذا
+               الفنان التعبير المتقن عن الحركة و الكتلة بسلاسة و يسر وذلك وفق نظم بصرية جمالية تشكيلية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1ZhsdJ41oIJiPMRmz7BODqCXFnOs36AD7/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-28">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">مطالعات في الفن التشكيلي العالمي - أعلام و مدارس و تيارات فنية</h5>
+            <p class="card-text">
+              من بين الاوراق
+               المنسية، التي تركها الأديب الراحل صدقي إسماعيل، هذه المقالات التي لم يتح لها أن تنشر ضمن المؤلفات الكاملة
+               التي صدرت في الثمانينيات القرن الماضي، و هي تضيئ جانباً مهماً من شخصية الأديب و المفكر صدقي إسماعيل
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : صدقي إسماعيل</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Y2CLyWQtNUnSkpYQ1UZCNityQGVxJ3qC/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-29">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التكوينات الحروفية في اللوحات التصويرية</h5>
+            <p class="card-text">
+              تعد الحروفية العربية
+               رافد مهم من روافد الفن العربي الإسلامي، فقد استنهض الفنانين الحروفيين العرب خلال فترة اربعينيات القرن
+               العشرين بعد الإنفتاح و الإطلاع على تجارب الفنانين العالميين في مختلف الإتجاهات و التيارات و الحركات
+               الفنية العالمية، حيث برز عدد غير قليل من الفنانين العرب في اتجاه تيار الحروفية العربية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : طارق سعيد</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1nNKKGTcwEoHvrgCEQH1RZgLQhFhu-irF/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-30">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الإبداع الفني و الأدبي لصورة المرأة في الفنون التشكيلية و فن الأدب و الشعر</h5>
+            <p class="card-text">
+              تبدأ صورة المرأة العربية بالظهور جلياً في الفنون التشكيلية مع ازدهار الفن
+               الإستشراقي في القرن التاسع عشر، مرحلة الإنبهار الكبير بالشرق و حضارته و ألوانه و أسراره
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i>تأليف : إلهام كلاب</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Y2rBAK2rj0NXjOqbI6uu1-wZ7ySoj4MX/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-31">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الشعر العباسي و الفن التشكيلي</h5>
+            <p class="card-text">
+              استطاعت القصيدة العربية أن تنقل ملامح الفن و الأدب في صورة نتاج رائع يسعى إلى تمثيل الأشياء المرئية
+               و المفهومات المجردة أيما تمثيل، و عبرت بذلك عن الفن الي يتمكن بوسائله اللغوية و الفنية أن ينقل
+               إلى المتلقي الصور المرئية و العقلية، و كل ما يتنتج عن تداخلها و تفاعلها موضوعياً و ذاتياً
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Y2rBAK2rj0NXjOqbI6uu1-wZ7ySoj4MX/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-32">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">إشكالية اللاموضوعية - المعادل الهندسي في تجربة كاندنسكي الغنائية</h5>
+            <p class="card-text">
+              إن الفن التجريدي المعاصر
+               واحداً من الإتجاهات الفنية التي تسعى إلى تحطيم الشكل الواقعي وصولاً إلى جوهره و مضمونه الداخلي، معبراً عن ذلك
+               بكونه اللاموضوعي و برزت في هذا الإتجاه تجريدية كاندنسكي الغنائية و نظريته اللاموضوعية، إذ اهتم كاندنسكي باللون
+               على حساب الشكل و أسمى فنه - فن الضرورة الداخلية - و قد أطلق النقاد على هذا الفن اسم اللاصوري أو اللاموضوعي
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Rby0026F4rO4SGXH82l48s4Nm1VFeGmf/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-33">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">هل للوحة ما يرى؟</h5>
+            <p class="card-text">
+              مقدمة المؤلف - يمثل هذا الكتاب مجموع ما ترجمته
+               خلال السنوات الثمان المنصرمة من مقالات و دراسات في الفن التشكيلي الحديث و المعاصر و التي نشرتها في مجلة
+               الثقافة الأجنبية و جريدة الأديب الأسبوعية و الذب أحسب أنه سيسد ولو جزء من الحاجة الملحة في هذا المجال
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فايز الحمداني</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1TmdFm5eMgVaTPyHJe3RoOL8NXEeyQ4Jb/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-34">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">جمالية الحدس في الفن الإسلامي لدى الفنان التشكيلي السعودي المعاصر</h5>
+            <p class="card-text">
+              مسألة التراث بين التأثر و التأثير أحد الموضوعات الهامة التي
+               تشغل الباحثين المعاصرين و المختصين و المهتمين، ولما كان
+               التراث يشكل جانباً بارزاً وهاماً في كيان الفنون على العموم و الأعمال الفنية التشكيلية على وجه الخصوص جاءت هذه
+               الدراسة محددة الأهداف واضحة الدلالات بحيث استطاع الباحثان الوقوف على مفهوم التراث بين اللغة و الإصطلاح
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : هيفاء الحديثني - شذا الأصقة</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1CA1pmYxRHTKI4Ph7zCVtduAqV1YVn8Tr/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-35">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التجليات التجريدية في أعمال محمد خدة</h5>
+            <p class="card-text">
+              يعتبر الفن التشكيلي صنف من صنوف الأدب مادته الألوان و الصباغ و الفرشاة، وإذا تحدثنا
+               عن لوحات الفنانين الجزائريين فنجدها صاغت مئات الصفحات التشكيلية التي برعوا فيها من واقع 
+              الحياة اليومية و تاريخ الشعب وإنتمائه و أحلامه تلك الصفحات الخالدة التي انتزعت إعجاب خبراء
+               الفن الغربيين، حيث تحولت أيديهم إلى عدسات راحت تسجل كل ما تراه العين في الحياة اليومية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : حدة دانة - طالم حميد</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1rqzWEdaIha_b4DzDCVQm-hFXtRNXbTLl/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-36">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الحرية و الإبداع و علاقتهما بمفاهيم الفن و الجمال</h5>
+            <p class="card-text">
+              جاءت فكرة هذه الدراسة بوصفها مشروعاً بحثياً علمياً متكاملاً على قاعدة أساسية قوامها :
+               أثر الحرية في ابتكار حالة التوأمة الطبيعية بين الثقافتين الإبداعية البصرية و الإبداعية الفكرية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :إحسان الرباعي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a  target="_blank" href="https://drive.google.com/file/d/18t1x3-uMDKI0Rx1yvzGGLhRlAKzog1fj/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-37">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">إشكالية التواصل مع التراث في الأعمال الفنية</h5>
+            <p class="card-text">
+              مسألة التراث بين التأثر و التأثير أحد الموضوعات الهامة التي
+               تشغل الباحثين المعاصرين و المختصين و المهتمين، ولما كان التراث يشكل جانباً بارزاً وهاماً في 
+              كيان الفنون على العموم و الأعمال الفنية التشكيلية على وجه الخصوص جاءت هذه الدراسة محددة
+               الأهداف واضحة الدلالات بحيث استطاع الباحثان الوقوف على مفهوم التراث بين اللغة و الإصطلاح
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : إحسان الرباعي - وائل الرشدان</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1waOEf0dvBwKFqjy_5VgvjZ-A2x2PUmc5/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-38">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">مدارس الفن التشكيلي</h5>
+            <p class="card-text">
+              ما هو الفن التشكيلي؟ هو كل شيء
+               يؤخذ من طبيعة الواقع، ويصاغ بصياغة جديدة أي يشكل تشكيلاً جديداً ، وهذا ما نطلق عليه كلمة التشكيل
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1pC_3bvSk0iSkYIe1D985gIa3rLrRS98W/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-39">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">دراسات في الفنون التشكيلية</h5>
+            <p class="card-text">
+              يعتبر الفن التشكيلي بما فيه من رسم و نقش و نحت و تصوير و عمارة ما
+               إلا نشاط إنساني يسد حاجتين أساسيتين يحددان رقي المجتمع من حاجة نفسية ذوقية و حاجة جسدية و ظيفية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : شكايم أحمد</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Yc_1FXD5i2YoeUS4qudFR6GLfzgDRLTa/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-40">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تشكيل</h5>
+            <p class="card-text">
+              مجلة فصلية تعنى بالفن التشكيلي - العدد الخامس عشر
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1lAteU6iex6VT8a0dkghjS9Ke70G1uRL1/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-41">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تطبيقات المنهج السميولوجي في قراءة اللوحة التشكيلية - دراسة ظاهراتية</h5>
+            <p class="card-text">
+              تهدف هذه الدراسة رصد فاعلية و حضور المنهج السميولوجي في التصورات
+               النقدية الفنية المعاصرة و مناهجها و أدواتها وفي النقد الفني التشكيلي و مناهجه و أدواته بصورة خاصة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مازن عصفور</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1K1F9Fw2yvkNkc2w7IOMBHd0C0fPh-TMj/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-42">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">اللوحة التشكيلية في الجزيرة السورية - ظلال الألوان، فضاءات الإنتماء</h5>
+            <p class="card-text">
+              تكاثفت الأسئلة حول ماهية اللوحة التشكيلية في الجزيرة السورية
+               و أغراضها و أساليبها و سمائها، و تياراتها الفنية و تمايزها من أشكال فنية أدائية أخرى
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عبد الناصر حسو</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1nakzI3M5xYUl-Vrl9ctP5wQhnuvBJALz/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-43">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التصوير الشعبي العربي</h5>
+            <p class="card-text">
+              مقدمة المؤلف : منذ الصغر حيث كنت أعيش في قرية صغيرة و بيئة متواضعة ، كنت اشاهد دائما في بيوت الناس صورا
+               مطبوعى على ورق، أو مرسومة تحت الزجاج تزين بها الجدران، و الحوانيت، و المقاهي الشعبية
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : أكرم قانصو</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1lAteU6iex6VT8a0dkghjS9Ke70G1uRL1/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-44">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">نسق التواصل و المثاقفة في الفن التشكيلي العراقي المعاصر</h5>
+            <p class="card-text">
+              نحن نعيش في عالم تتداخل فيه الثقافات و الرؤى - عندما صار الإتصال وو سائطه يحرك الأفكار و يعيد إنتاج الثقافات 
+              ومن ثم يحدد مساراتها، فهنالك ثقافات تقوم على الفعل و التجربة التاريخية و أخرى تعمل على إزاحة تاريخية
+              ، و بدا الفن أحد وسائط هذا الصراع - لكن هناك أفق أخر ربما أكثر تفاؤلاً عندما صار الإندماج
+               و الإحتكاك الثقافي يعطي بعضاً من نتاجات لا يمكن للأحادية الثقافية أن تعطيها أو تكفيها
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : محمد العنزي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1_oeYz5wALBYaUltT6MGyo5tiG-H87l-U/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-45">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">فلسفة الفن - مدخل إلى علم الجمال</h5>
+            <p class="card-text">
+              تشكل الفنون جانبا مهما في حياة البشر و ثقافتهم، و تحظى بقدر كبير من اهتمامهم و تشجيعهم،
+               ولكن ما هو الفن على وجه الخصوص ولم يمثل قيمة بالنسبة للناس؟ لعل مثل هذه التساؤلات من أقدم
+               التساؤلات في دارت في أذهان البشر - و قد اهتم الفلاسفة بالإجابة عنها على مدى أكثر من ألفي عام
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جوردون غراهام</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/12A8uJO_sSlX3t-VPscNOJSztwbPN9Sda/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-46">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تجليات العلامة في الفن التشكيلي</h5>
+            <p class="card-text">
+              لقد كان التشكيل الجزائري منذ بدأ
+               الخليقة سلاحا للدفاع عن النفس و الوجود معاً، و تجددت تقنيات استخدامه مع تجدد مراحل التاريخ
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مصطفى يحيى</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1gaWAuC9DTmqfSeJSVz8IermCz6mXLei3/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-47">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التجريد في الجزائر</h5>
+            <p class="card-text">
+              يتميز الفن الحديث بأنه متجدد و يخرج عن القواعد المألوفة لذلك ظهرت مدارس فنية متعددة و فنانون ذوي فرديات متعددة،
+               و لقد كانت التجريدية كم أهم المدارس الفنية حيث إن الفن مهما اختلفت مظاهره فإن أساسه التجريد
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : بن حمزة خليفة - سماعيني محمد</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/11XVuKDJ1bFpULjODCjEXOX8TisLjOnWf/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-48">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التجريدية بين الفنين الإسلامي و الغربي</h5>
+            <p class="card-text">
+              هنالك تلك المفارقة للتجريد بين المنظورين الإسلامي و الغربي فالتجريد مع أنه واحد في تعريفه و مفهومه
+               الشامل بإعتباره تعبيرا تشكيليا لا تصويريا يلغي الشبه و المحاكاة و يتخلى عن النقل و الواقع غير أنه مختلف أسلوبا و فلسفة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :زياني جمعة - رزق يوسف</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1qY2up-cxFj_4y7ga_xMGldP8Rc_SdlFr/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-49">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تطور الحركة التشكيلية في الجزائر</h5>
+            <p class="card-text">
+              لقد كان التشكيل الجزائري منذ بدأ
+               الخليقة سلاحا للدفاع عن النفس و الوجود معاً، و تجددت تقنيات استخدامه مع تجدد مراحل التاريخ
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مرزوقي كنزة</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/153WY7A-z4Chas9FEvsTFlBsswzPRi1NU/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-50">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">شعرية اللون في رسومات كاندنسكي</h5>
+            <p class="card-text">
+              يعد الفن ضرورة ملحة أكثر منه حاجة جمالية فحسب، ذلك أنه المجال الأوسع
+               الذي من خلاله يفصح الإنسان عن إمتلاكه اللغة الشعرية التي تفوق في قوة تعبيرها صراحة الكلمات
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فاطمة عبدلله - رشا موسى</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1d31cFsb5kAkrdulR3R_zyn6x7YHEfspm/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-51">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">دلالة الصورة الفنية - دراسة تحليلية سيميولوجية لمنمنمات محمد راسم</h5>
+            <p class="card-text">
+              قال الفيلسوف الإغريقي سيموندس - الشعر رسم ناطق و الرسم شعر صامت - فهنالك علاقة وثيقة بين الفن التشكيلي و
+               القصيدة و هذا ليس بالأمر الحديث فقد جسدت الملاحم الشعرية اليونانية بلوحات تشكيلية تعبر عن فحواها
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :إيمان عفان</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1LbpyNPoEY7_BvniU2tAB6Ri1ZZOoHCLG/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-52">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">اللوحة الفنية بين التحليل و النقد</h5>
+            <p class="card-text">
+              دراسة تحليلية نقدية للوحة المرأة و الطفل للفنان محمد اسياخم
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : بيلجيلالي لطيفة</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/153WY7A-z4Chas9FEvsTFlBsswzPRi1NU/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-53">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تذوق الجمال في عناصر الفن التشكيلي</h5>
+            <p class="card-text">
+              العمل الفني في محتواه يتضمن العديد من العناصر التي
+               تتفاعل لتكون في النهاية الصيغة الكلية له وهذه العناصر لا تكتسب صفاتها بأن تكون عملاً فنيا
+               إلا من خلال أسلوب معالجة الفنان للعدبد منها جمالياً و تعبيرياً بما يضيه إليها من قيم
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : أمل ابراهيم</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1ODS2WpcaAaXMbYSnLool9QYrLzu2cEGA/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-54">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">الصورة الشعرية في اللوحة التشكيلية</h5>
+            <p class="card-text">
+              قال الفيلسوف الإغريقي سيموندس - الشعر رسم ناطق و الرسم شعر صامت - فهنالك علاقة وثيقة بين الفن التشكيلي و القصيدة
+               و هذا ليس بالأمر الحديث فقد جسدت الملاحم الشعرية اليونانية بلوحات تشكيلية تعبر عن فحواها
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهينة الخطيب</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1uMuX0jhZ6tOj6hI0wLtvV8MqLRafgWx_/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-55">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التلقي في الفن التشكيلي - دراسة نقدية
+            </h5>
+            <p class="card-text">
+              الفنان بمفهومه الحالي
+               لم يكن معروفاً في الحضارات القديمة بل يعتبر حرفياً صانعاً، عمل الفنان هو أفضل ما ينتجه، إنما وجد ليتحدث نفسه
+               عن نفسه و الذين يصعب عليهم فهم لغة العمل الفني سيذهبون إلى قليل من الترجمة القريبة بلغة الألفاظ الغريبة
+               عن الفن - فيوحي الفنان إلى نفسه بالثقة في أن عمله سيجد ما يستحقه من تقدير على مر الأيام من قبل الجمهور
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عزاوي حمزة</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1Iq1khFS7aCksvJ-26MfSWJIjWsvVlEhX/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-56">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">واقع الفنون التشكيلية في التكوين الجامعي الجزائري</h5>
+            <p class="card-text">
+              يعتبر الفن التشكيلي بما فيه من رسم و نقش ونحت و تصوير ما إلا نشاط إنساني يسد حاجتين أساسيتين يحددان رقي
+               المجتمع من حاجة نفسية ذوقية و حاجة جسدية و ظيفية، وما تمثله أهمية الفنون التي تكمن في كونها تساعد
+               على وضع و تشكيل ذوق أي مجتمع و كذلك وسيلة من وسائل التربوية البالغة الأهمية في تربية الأجيال
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : بخته العايدي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a  target="_blank" href="https://drive.google.com/file/d/1MdY07FKx2zAH3cCknh2795R_pjlltuZh/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-57">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التصوير الإستشراقي في الجزائر خلال القرن التاسع عشر</h5>
+            <p class="card-text">
+              دراسة تحليلية نقدية من أعمال الفنان اوجين ديلاكروا
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : أعمر الامين</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1MdY07FKx2zAH3cCknh2795R_pjlltuZh/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-58">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">التعرف على سمات المدرسة التكعيبية و تحليل لبعض أعمال الفنان بابلو بيكاسو</h5>
+            <p class="card-text">
+              ظل الفنانون منذ العصور القديمة حتى أواخر القرن التاسع عشر يتشبثون بمحاكاة الأشكال
+               المرئية في كافة الأعمال التشكليلية التي نفذوها، إلا أن مطلع القرن العشرين شهد تغييرا جزريا حيث بدأ
+               الفتانون يهتمون بإبتكار وسائل جديدة للتعبير عن تصورهم للفن حتى يلائم التطور الحضاري في العالم
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : إيمان فرغلي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1GO6V34OxnhYdc1HDdR86gI01vQhaK8Qa/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-59">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">قراءة الصورة التشكيلية بين الحقيقة و الإيحاء</h5>
+            <p class="card-text">
+              تهدف هذه الدراسة إلى تقديم تمهيد نظري و تحليل
+               متسق عن الصورة التشكيلية، بغية محاولة فهم و تفهم المشاهد بلغة الصورة و قيمتها الإنسانية،
+               و معرفة حقيقتها ومشكلة إيحائاتها، بإتباع خطوات إجرائية اعتمدت أدوات المنهج الوصفي
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : طارق عبد الوهاب</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1dlsFhUbDzuwRXPhmPWLi_UgzfIRz1dng/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-60">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">شهرزاد في التشكيل و الرسم</h5>
+            <p class="card-text">
+              يرتبط مفهوم الحكاية في التراث الشعبي،
+               حيث تحمل شأنها شأن السيرة الشعبية، ما يمكن أن نسميه التفسير النفسي أو الوجداني للتاريخ
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : محمد محمود فايد</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1WFU_IDj1TMNSVgHyMZaaIhYiP5Z5eq-e/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-61">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">العملية الإبداعية في فن التصوير</h5>
+            <p class="card-text">
+              يتصدى المؤلف في البحث الراهن للإجابة على عدد من الأسئلة بالغة الأهمية و التعقيد معأ وهي تباعاً:
+              كيف تتم عملية الإبداع في فن التصوير و ما هي العمليات النفسية المسؤلة عنها و المسهمة فيها؟
+              ما هي العمليات و العوامل الإجتماعية المسؤولة عن الإبداع في فن التصوير؟
+              كيف يستخدم المصور قوانين الضوء و الإختلافات في نوعية الألوان وشدتها و نصوعها و في الخطوط و الأشكال و المساحات؟
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : شاكر عبد الحميد</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1dzkwFrkMpH0hzxj1-9y4QUnRsbKmxfYb/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-62">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تحولات الشكل في لوحات موندريان</h5>
+            <p class="card-text">
+              يعني هذا البحث بدراسة تحولات الشكل في لوحات موندريان باعتبارها جزءا مهماً
+               من عدة تحولات طرأت لبنية الشكل في الرسم الحديث و التي قادت الفن الغربي ودفعته نحو أفاق جديدة
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : رنا الخفاجي</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1ge4Tku4Y-kiUs2z5hgY2zTLxCvuOrYHw/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+        
+        <div class="card" id="pcr-63">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">دلالة الشكل دراسة في الإستطيقا الشكلية و قراءة في كتاب الفن</h5>
+            <p class="card-text">
+              يشملنا هذه الأيام مناخ يضع الفن في موقف دفاع! وربما يزج به إلى ساحات القضاء، ليمثل للمحاكمىة مثول المسيح
+               أمام الذين جاء لهدايتهم، ومرد ذلك إلى التباس لفظي أساسي، فقديماً طال ارتباط النغم بالمجون
+               و ارتباط النحت بالوثن حتى صار اللفظان متعاوضين و أصبح أحدهما يقوم في الذهن مقام الأخر
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عادل مصطفى</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1ZIv5wHG4MYHu9IRdTZB4C8NJ1YEXYRwU/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pcr-64">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">تذوق الجمال في عناصر الفن التشكيلي</h5>
+            <p class="card-text">
+              أن العمل الفني في محتواه يتضمن العديد من العناصر التي تتفاعل لتكون في
+               النهاية صيغته الشاملة ، تكتسب هذه العناصر صفاتها لتكون
+               عمالا فنيين مروا بمعاملة الفنان للعديد منهم جماليا ومعبرا مع القيم التي يضيفها إليها.
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : محمد عدي نين</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1qM6KEv4RQ7fefcmiFPtlj8DxZUm1AlFu/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+        <div class="card" id="pcr-65">
+          <div class="card-body" id="cards-book-all-lib">
+            <h5 class="card-title" style="text-align: right;">فن الباروك</h5>
+            <p class="card-text">
+              لوحات الباروك والروكوكو: جولة إرشادية  
+            </p>
+            <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : محمد عدي نين</small></p>
+            <p class="card-text">
+              <small>
+              التقييم : 
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </small>
+            </p>
+            <a target="_blank" href="https://drive.google.com/file/d/1pBluo0k04px38f5RQBmkjY6GnAmfDAOn/view?usp=sharing">
+              <button type="button" class="btn">تحميل الكتاب</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+  </main>
+
+  <div id="line"></div>
+  <footer>
+    <div id="footer-header-card">
+      <br>
+      <div class="card mb-3" style="max-width: 1100px;box-shadow: 0px 0px 15px #fff;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="gif/00-footer.gif"
+              alt="..."
+              class="img-fluid"
+              width="50%"
+              style="border-bottom: 2px #000 solid;"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              
+              <h5 class="card-title">مكتبة الفنون التشكيلية</h5>
+              <p class="card-text">
+                ستبقى المكتبة التشكيلية في طريق ضمها لأكبر عدد ممكن من المعارف المخصصة للفنون على مقاييس المدارس و الأكاديميات حول العالم.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">جميع الحقوق محفوظة ©2021 مكتبة الفنون التشكيلية</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-title">
+      <a target="_blank" href="https://andreiabd.github.io/CoderX/index.html" target="_blank"><i class="fas fa-cube"></i> All copyright ©2021 Abdrei Abd | CoderX</a>
+    </div>
+
+  </footer>
+  <!-- back to top btn -->
+  <button 
+    id="back-to-top-btn"
+  >
+    <i class="fas fa-angle-double-up"></i>
+    </button>
+
+  <!--BOOTSTRAP Script-->
+  <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"
+  >
+  </script>
+
+  <script 
+    src="js/javascript.js"
+  >
+  </script>
+</body>
+</html>

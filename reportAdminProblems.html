@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!--Powered | CoderX ©2021 | Andrei Abd
+    █▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
+    █▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
+    CODER X |تم تصميم الموقع و برمجته من قبل اندريه عبد
+    mail      :  usr.g0a1@gmial.com
+    CoderX    :  https://coderx-project.blogspot.com/
+    Whatsapp  :  +963934820511
+    Pinterest :  https://www.pinterest.com/andreiabd93
+    Instagram :  https://www.instagram.com/andrei_abd/
+    Linkeden  :  https://www.linkedin.com/in/andreiabd
+    Facebook  :  https://www.facebook.com/andreiaabd/
+    -->
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap" 
+      rel="stylesheet"
+    />
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
+    <!--Arabic Language-->
+    <meta 
+      charset="UTF-8"
+    >
+
+     <!--Devices All Screen-->
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0"
+    >
+    
+    <!--Web Site icon-->
+    <link  
+      rel="icon" 
+      href="png/00-logo.png"
+    />
+    
+  	<!--Google Search Console-->
+    <meta 
+      name="google-site-verification" 
+      content="44SR0WJt3L5SBIYr8qvqmbd-_7buOW_hQIVqcSoTkPs" />
+  
+    <!--Web Site SEO & Description & Tittle-->
+    <meta 
+      name="description" 
+      content="Fine Art Library - مكتبة الفنون التشكيلية">
+    <meta 
+      name="keywords" 
+      content="Art, Fin Art, Books, Library, painting, paint, printmaking, print, sculpture, carving, artist, museums, exhibition,فنون جميلة , فن.فنون بصرية, نحت, إعلان, رسم, كتب, علوم فنية, فنون تشكيلية, فنانين, متاحف">
+      <title>Fine Art Library</title>
+    
+    <!--Loader image-->
+    <script
+      src="js/loader.js"
+    >
+    </script>
+    <!--Side Nave Bar-->
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "280px";
+        document.getElementById("main").style.marginLeft = "280px";
+      }
+
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+    <!--CSS-->
+    <link 
+      rel="stylesheet" 
+      href="css/style.css"
+    >
+  </head>
+<body>
+  <div class="loader">
+      <img src="gif/loader-fineartlibrary-all.gif"/>
+  </div>
+  <header>
+    <div id="header-title">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div id="line"></div>
+        <a href="index.html"><i class="fas fa-cogs"></i> الصفحة الرئيسية</a>
+        <div id="line"></div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الكتب
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="fineartbooksallartists.html"><i class="fa fa-book"></i> كتب الرسم و التصوير</a></li>
+            <li><a class="dropdown-item" href="printMakingAllArtist.html"><i class="fa fa-book"></i> كتب الحفر و الطباعة</a></li>
+            <li><a class="dropdown-item" href="carvingAllPlasticArtists.html"><i class="fa fa-book"></i> كتب النحت</a></li>
+            <li><a class="dropdown-item" href="colorBooksForArtists.html"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="prespectiveAllBooksForArtists.html"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="AnatomyBooksForArtists.html"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="designForArtists.html"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="philasophyAllBooksForArtists.html"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="educationBooksForArtists.html"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأنماط 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> المدارس الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الإتجاهات التشكيلية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المقالات 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> القراءة الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مقالات متفرقة</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الفنانين
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> العراق</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> لبنان</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأكاديميات
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الصين</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> أمريكيا</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المتاحف
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
+          </ul>
+        </div>
+        <div id="line"></div>
+        <a href="whoWeAre.html"><i class="fas fa-cogs"></i> من نحن</a>
+        <a href="abotTheSite.html"><i class="fas fa-cogs"></i> حول الموقع</a>
+        <a href="smillerSitesByX.html"><i class="fas fa-cogs"></i> مواقع ذات صلة</a>
+        <a href="reportAdminProblems.html"><i class="fas fa-cogs"></i> التبليغ عن المحتوى</a>
+        <div id="line"></div>
+        <br>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <div class="headerElementsFixed">
+        <button id="" onclick="openNav()" style="font-size:15px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-right"></i> القائمة الرئيسية</button>
+      </div>
+    </div>
+        </header>
+        <main>
+            <!-- list seconedcard from top -->
+            <div id="maintop-card" >
+                <div id="line"></div>
+                <div class="card mb-3" style="max-width: 1100px;box-shadow: 0px 0px 15px #fff;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                    <img
+                        src="gif/report-nave-bar-main.gif"
+                        alt="..."
+                        class="img-fluid"
+                        style="
+                        border-left: 2px solid #000;
+                        border-bottom: 2px solid #000;
+                        border-top: 2px solid #000;
+                        border-radius: 20px 0px 0px 20px;
+                        "
+                    />
+                    </div>
+                    <div class="col-md-8">
+                    <div class="card-body" style="margin-top: 50px;" >
+                        <h5 class="card-title"><i class="fa fa-bullhorn"></i> التبليغ عن المحتوى :</h5>
+                        <p class="card-text" style="font-weight: bold;">
+                         يرجى تبليغ الموقع عند عدم عمل الروابط، أو أي مشكلة تقنية تواجه المستخدم خلال تصفح الموقع،
+                         وذلك من خلال إرسال طرح للمشكلة بشكل واضح وصحيح إلى مشرف الموقع عبر العناوين المدرجة في الأسفل:
+                        </p>
+                        <p style="text-align: left;font-weight: bold;">
+                        Whatsapp : +963934820511  <i class="fa fa-mail-bulk"></i> 
+                        </p>
+                        <p style="text-align: left;font-weight: bold;">
+                        Site: fineartlibrary3@gmail.com  <i class="fa fa-mail-bulk"></i> 
+                        </p>
+                        <p style="text-align: left;font-weight: bold;">
+                        Admin: usr.g0a1@gmial.com  <i class="fa fa-mail-bulk"></i> 
+                        </p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            <div id="line"></div>
+          </div>
+    </main>
+    <div id="line"></div>
+    <footer>
+      <div id="footer-header-card">
+        <br>
+        <div class="card mb-3" style="max-width: 1100px;box-shadow: 0px 0px 15px #fff;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img
+                src="gif/00-footer.gif"
+                alt="..."
+                class="img-fluid"
+                width="50%"
+                style="border-bottom: 2px #000 solid;"
+              />
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                
+                <h5 class="card-title">مكتبة الفنون التشكيلية</h5>
+                <p class="card-text">
+                  ستبقى المكتبة التشكيلية في طريق ضمها لأكبر عدد ممكن من المعارف المخصصة للفنون على مقاييس المدارس و الأكاديميات حول العالم.
+                </p>
+                <p class="card-text">
+                  <small class="text-muted">جميع الحقوق محفوظة ©2021 مكتبة الفنون التشكيلية</small>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="footer-title">
+        <a href="https://andreiabd.github.io/CoderX/index.html" target="_blank"><i class="fas fa-cube"></i> All copyright ©2021 Abdrei Abd | CoderX</a>
+      </div>
+    </footer>
+
+    <!-- back to top btn -->
+    <button 
+      id="back-to-top-btn"
+    >
+      <i class="fas fa-angle-double-up"></i>
+      </button>
+
+    <!--BOOTSTRAP Script-->
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"
+    >
+    </script>
+
+    <script 
+      src="js/javascript.js"
+    >
+    </script>
+  </body>
+</html>

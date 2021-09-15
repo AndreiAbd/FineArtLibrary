@@ -1,0 +1,1355 @@
+
+<!DOCTYPE html>
+<html lang="ar">
+  <head>
+    <!--Powered | CoderX ©2021 | Andrei Abd
+    █▀▀ █▀█ █▀▄ █▀▀ █▀█ ▀▄▀
+    █▄▄ █▄█ █▄▀ ██▄ █▀▄ █░█
+    CODER X |تم تصميم الموقع و برمجته من قبل اندريه عبد
+    mail      :  usr.g0a1@gmial.com
+    CoderX    :  https://coderx-project.blogspot.com/
+    Whatsapp  :  +963934820511
+    Pinterest :  https://www.pinterest.com/andreiabd93
+    Instagram :  https://www.instagram.com/andrei_abd/
+    Linkeden  :  https://www.linkedin.com/in/andreiabd
+    Facebook  :  https://www.facebook.com/andreiaabd/
+    -->
+
+    <!-- Font Awesome -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+    href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    rel="stylesheet"
+    />
+    <link 
+      href="https://fonts.googleapis.com/css2?family=Kufam:wght@700&display=swap" 
+      rel="stylesheet"
+    />
+
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <!-- MDB -->
+    <link
+    href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.css"
+    rel="stylesheet"
+    />
+
+    <!--Arabic Language-->
+    <meta 
+      charset="UTF-8"
+    >
+
+     <!--Devices All Screen-->
+    <meta 
+      name="viewport" 
+      content="width=device-width, initial-scale=1.0"
+    >
+    
+    <!--Web Site icon-->
+    <link  
+      rel="icon" 
+      href="png/00-logo.png"
+    />
+    
+  	<!--Google Search Console-->
+    <meta 
+      name="google-site-verification" 
+      content="44SR0WJt3L5SBIYr8qvqmbd-_7buOW_hQIVqcSoTkPs" />
+  
+    <!--Web Site SEO & Description & Tittle-->
+    <meta 
+      name="description" 
+      content="Fine Art Library - مكتبة الفنون التشكيلية">
+    <meta 
+      name="keywords" 
+      content="Art, Fin Art, Books, Library, painting, paint, printmaking, print, sculpture, carving, artist, museums, exhibition,فنون جميلة , فن.فنون بصرية, نحت, إعلان, رسم, كتب, علوم فنية, فنون تشكيلية, فنانين, متاحف">
+      <title>Fine Art Library</title>
+    
+    <!--Loader image-->
+    <script
+      src="js/loader.js"
+    >
+    </script>
+    <!--Side Nave Bar-->
+    <script>
+      /* Set the width of the side navigation to 250px and the left margin of the page content to 250px */
+      function openNav() {
+        document.getElementById("mySidenav").style.width = "280px";
+        document.getElementById("main").style.marginLeft = "280px";
+      }
+
+      /* Set the width of the side navigation to 0 and the left margin of the page content to 0 */
+      function closeNav() {
+        document.getElementById("mySidenav").style.width = "0";
+        document.getElementById("main").style.marginLeft = "0";
+      }
+    </script>
+
+    <!--CSS-->
+    <link 
+      rel="stylesheet" 
+      href="css/style.css"
+    >
+  </head>
+<body>
+  <div class="loader">
+      <img src="gif/loader-fineartlibrary-all.gif"/>
+  </div>
+  <header>
+    <div id="header-title">
+      <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div id="line"></div>
+        <a href="index.html"><i class="fas fa-cogs"></i> الصفحة الرئيسية</a>
+        <div id="line"></div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الكتب
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="fineartbooksallartists.html"><i class="fa fa-book"></i> كتب الرسم و التصوير</a></li>
+            <li><a class="dropdown-item" href="printMakingAllArtist.html"><i class="fa fa-book"></i> كتب الحفر و الطباعة</a></li>
+            <li><a class="dropdown-item" href="carvingAllPlasticArtists.html"><i class="fa fa-book"></i> كتب النحت</a></li>
+            <li><a class="dropdown-item" href="colorBooksForArtists.html"><i class="fa fa-book"></i> كتب اللون</a></li>
+            <li><a class="dropdown-item" href="prespectiveAllBooksForArtists.html"><i class="fa fa-book"></i> كتب المنظور الفني</a></li>
+            <li><a class="dropdown-item" href="AnatomyBooksForArtists.html"><i class="fa fa-book"></i> كتب التشريح الفني</a></li>
+            <li><a class="dropdown-item" href="designForArtists.html"><i class="fa fa-book"></i> كتب التصميم الفني</a></li>
+            <li><a class="dropdown-item" href="philasophyAllBooksForArtists.html"><i class="fa fa-book"></i> كتب الفلسفة و النقد الفني</a></li>
+            <li><a class="dropdown-item" href="educationBooksForArtists.html"><i class="fa fa-book"></i> كتب التربية الفنية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأنماط 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> المدارس الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الإتجاهات التشكيلية</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المقالات 
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> النقد الفني</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> القراءة الفنية</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مقالات متفرقة</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الفنانين
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> العراق</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> لبنان</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة الأكاديميات
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> الصين</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> أمريكيا</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <button
+            class="btn btn-primary dropdown-toggle"
+            type="button"
+            id="dropdownMenuButton"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+            style="direction: ltr;"
+          >
+            قائمة المتاحف
+          </button>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> روسيا</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> مصر</a></li>
+            <li><a class="dropdown-item" href="#"><i class="fa fa-book"></i> سوريا</a></li>
+          </ul>
+        </div>
+        <div id="line"></div>
+        <a href="whoWeAre.html"><i class="fas fa-cogs"></i> من نحن</a>
+        <a href="abotTheSite.html"><i class="fas fa-cogs"></i> حول الموقع</a>
+        <a href="smillerSitesByX.html"><i class="fas fa-cogs"></i> مواقع ذات صلة</a>
+        <a href="reportAdminProblems.html"><i class="fas fa-cogs"></i> التبليغ عن المحتوى</a>
+        <div id="line"></div>
+        <br>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <div class="headerElementsFixed">
+        <button style="font-size:15px;cursor:pointer" onclick="openNav()"><i class="fas fa-align-right"></i> القائمة الرئيسية</button>
+        <a href="#content-color">
+            <button class="btn" onclick="openContentColor()" id="btn-contents-printmaking"><i class="fas fa-align-right"></i> الفهرس</button>
+        </a>
+      </div>
+    </div>
+  </header>
+  <div id="fixSpaceBlank"><!----></div>
+  <div id="line"><!----></div>
+
+  <main>
+    <!-- Print macking Books -->
+              <!--Color Books -->
+          <div id="plastic-art-books-color">
+            <div id="line"></div>
+            <nav class="navbar" id="mainpage-navebar">
+              <p> <i class="fas fa-book-open"></i> اللون :</p>
+            </nav>            
+            <div id="content-color">
+              <div class="card">
+                <div class="card-body">
+                  <div id="line"></div>
+                  <br><br>
+                  <p class="card-text" style="font-weight: bold;text-align: left;">
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-1">Color Theory - Science Experiment</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-2">Watercolor Basics and Color Theory</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-3">Greek color theory</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-4">MATERIALS INFORMATION and TECHNICAL RESOURCE for ARTISTS – Paint Mediums and Additives</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-5">Historic Look on Color Theory</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-6">LIGHT & COLOR THEORY OVERVIEW</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-7">Color Theory</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-8">Lecture - Color theory</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-9">Basic Color Theory</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-10">Historical Painting Techniques, Materials, and Studio Practice</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-11">Instrumental colour mixing to guide oil paint artists</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-12">Flash - Absolute colour on all supports</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-13">ColorVis: Exploring Colour Usage in Paintings Over Time</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-14">Art Sperctrum - Fine Artists Oil Colour</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-15">تأثير الألوان على الإنسان</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-16">لأصبغة العضوية</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-17">قيم اللون بين النظرية و التطبيق في التصميم المعاصر</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-18">الأسس التعييرية للأعمال الفنية المسطحة و التي تنشأ من خلال الحركة التقديرة للقيم اللونية</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-19">اللون و دلالته في القراّن الكريم</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-20">لألوان و دلالتها في الحضارة الإسلامية - تطبيق على نماذج من المخطوطات العربية</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-21">الرسم بالألوان الزيتية على القماش</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-22">نظرية الألوان</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-23">النظرية اللونية</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-24">القيمة الجمالية و المعرفية من خلال إستخدام خامة ألوان الأكرليك في اللوحة الجدارية الحديثة </a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-25">أمراض اللوحات الزيتية القماشية و طرائق علاجها و ترميمها</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-26">علم نفس الألوان - التأثيرات النفسية للألوان</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-27">رمزية الألوان من المقدس الديني إلى السياسي</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-28">الأنساق اللونية و تحولاتها في الرسم الأوربي الحديث</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-29">القواعد الأساسية التي تؤثر في علاقة الألوان مع بعضها البعض و علاقتها المرئية</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-30">إضاءة الألوان و استعمالاتها</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-31">هل تتحدثون لغة الألوان؟</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-32">لمحة عن تاريخ الألوان في حياة الشعوب</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-33">إضاءة الألوان و استعمالاتها</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-34">الدلالة النفسية للون في شعر الطبيعة - العصر الأندلسي</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-35">التأثيرات الإدراكية لرمزية اللون ودورها في تصميم الشعار</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-36">جماليات اللون و الحركة في الفن البصري</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-37">اللون في الحاسب</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-38">دلالات سيكولوجية الألوان</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-39">الالوان و الإستجابة البشرية</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-40">دراسة عن الألوان</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-41">نظرية الألوان</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-42">Soil Color Charts</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-43">The Elements of Color</a>
+                    <div id="line"></div>
+                    <a target="_blank" href="#pco-44">The Color Soil</a>
+                  </p>
+                  <div id="line"></div>
+                </div>
+              </div>
+            </div>
+            <!-- all books -->
+            <div class="card" id="pco-1">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> Color Theory - Science Experiment </h5>
+                <p class="card-text">
+                  تميز العين البشرية الألوان باستخدام الخلايا الحساسة للضوء في شبكية العين. هذه المستشعرات هي قضبان وأقماع. تمنحنا القضبان رؤيتنا الليلية ويمكن أن تعمل في شدة الضوء المنخفضة ، ولكن لا يمكنها تمييز اللون. تتيح لنا الأقماع رؤية اللون ويمكننا حل الصور الحادة. يتكون الضوء الذي نراه ، مثل ضوء الشمس ، من مزيج من عدة ألوان. سوف تتعلم المزيد عن الضوء وكذلك الألوان الأساسية والثانوية في هذه التجربة
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة مختصة</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1Zt2cL_DkUb3U2vwEQPAqjFX6vseoh6__/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-2">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">Watercolor Basics and Color Theory</h5>
+                <p class="card-text">
+                  كتاب الألوان المائية بين الأساسيات و نظرية اللون
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : سميث وايتت</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1PKr4P7eHP45KF2I0iMA0wVbixI-1F-Kx/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-3">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> Greek color theory </h5>
+                <p class="card-text">
+                  نظرية اللون الإغريقة يتناول مفهوم اللون ضمن طريقة أخرى غير الطرق السائدة لفكرة نظرية الألوان  التي لا تخطر ببال الكثير من الناس سوى نظرية نيوتن القائلة بأن الألوان جاءت كمحصلة لنتيجة انكسار الضوء (الأبيض)
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ج.ي.بينسون</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1mC8uTCq0UWCYZnBlb6ZBS1XloAVmXLSj/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-4">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">MATERIALS INFORMATION and TECHNICAL RESOURCE for ARTISTS – Paint Mediums and Additives</h5>
+                <p class="card-text">
+                  كتاب بعنوان : معلومات المواد والموارد الفنية للفنانين - مواد الطلاء والمواد المضافة - تتكون الدهانات الزيتية ، في أبسط صورها ، من أصباغ مطحونة في زيت تجفيف. 
+                  تجف هذه الزيوت في طريق الأكسدة غشاءً متماسكًا على عكس الراتنجات والمواد الصبغية التي تجف بتبخر المادة المخففة 
+                  في حين أن الدهانات الزيتية لها صفات سطحية مميزة مشتقة من اختيار الصباغ ، يمكن تعديلها بشكل كبير من خلال دمج مخفف إضافي .
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة مختصة</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1qyv3hoxkr03zG8iQtU3ZxIBk4L9A2OVg/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-5">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> Historic Look on Color Theory </h5>
+                <p class="card-text">
+                  كتاب بعنوان ك النظرة التاريخية لنظرية الألوان - يُطلق على علم الألوان اسم اللوني أو قياس الألوان أو علم الألوان. هذا المجال
+                  العلم يشمل إدراك اللون بالعين البشرية ، وأصل الألوان ، ومجلس الفن ،
+                  العلاج النفسي ، وعلم النفس من الإشعاع الكهرومغناطيسي ، وتأثيراته على الدماغ (العظمي).
+                  لقد رغب الخبراء طوال الوقت في فك شفرة تكوين اللون لشرحها
+                  كيف ولماذا يستطيع رؤية الألوان من أجل فكرة إعداد و تهيئة التخصصات
+                  من علمي إلى فني.
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : إيدغس بوغومولافس</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/14jnsyOExPclrphzyItDsRfYn2UORkS6C/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-6">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">LIGHT & COLOR THEORY OVERVIEW</h5>
+                <p class="card-text">
+                  عنوان الكتاب : نظرة عامة على نظرية الضوء واللون - يقدم الكتاب معلومات خاصة للنظم اللونية لأمواج الضوئية ومدى قدرة الإنسان على تحقيق الإستجابة العلمية الصحيحة
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1ScgSEAQhuAByEYr63Dw71kGL2AMD5R8S/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-7">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> Color Theory </h5>
+                <p class="card-text">
+                  نظرية الألوان - الضوئية و الكيميائة بإختصار مع مناقشة أبرز مصطلحات العلوم اللونية
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i>تأليف : جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1SiM48E21HpiNaHOj2ydSOE5VfAAY9ibB/view">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+            
+            <div class="card" id="pco-8">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">Lecture - Color theory</h5>
+                <p class="card-text">
+                  كتاب بعنوان : محاضرة في نظرية اللون - إختصار سريع للمصطلحات اللونية و القواعد اللونية الأساسية
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : إيدغس بوغومولافس</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1enmuzDrY6AKUjIehBDphAZ7yuwP2wBZZ/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-9">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">Basic Color Theory</h5>
+                <p class="card-text">
+                  كتاب نظرية اللون الأساسية : اللون هو أحد أهم العناصر في أي تصميم. عند التخطيط للمشاريع ، من الرائع معرفة أساسيات نظرية الألوان ومساعدتك في تحقيق المظهر الجذاب الذي تريده
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i>تأليف : جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1dN0KvCX8veFiw5bKACsQYPeFVG8N1GCL/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-10">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">Historical Painting Techniques, Materials, and Studio Practice  </h5>
+                <p class="card-text">
+                  كتاب بعنوان - تاريخ تقنيات الطلاء، المواد و التطبيقات داخل الإستديو، مقدمة المؤلف: يعد تاريخ تقنيات الرسم بطبيعته مجالًا متعدد التخصصات للدراسة ، يجمع بين البحث في العلوم والحفظ وتاريخ الفن بالإضافة إلى الخبرة المحددة في اللوحات. يجلب أعضاء كل واحدة من هذه المهن إلى المنطقة معرفتهم التفصيلية الخاصة بمواد الفنانين أو تقنياتهم أو أساليبهم ، سواء كانت معلومات خاصة بالأصباغ أو وسائط الربط أو أسلوب التوقيع أو البحث الأرشيفي.
+                  لقد تطور مجال تاريخ تقنيات الرسم بسرعة كبيرة في السنوات الأخيرة وفتح فرصًا هائلة لمزيد من البحث والتواصل ، كما توضح هذه المجموعة المهمة من الأوراق. ليس فقط طرق الفحص العلمية ولكن أيضًا البحث الببليوغرافي والأرشيفي يقدم مساهمات كبيرة.
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : باول غيتتي</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1bU1vLuZcT2niC_d8OS8llBaf-Sk9-fqD/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-11">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">Instrumental colour mixing to guide oil paint artists</h5>
+                <p class="card-text">
+                  في الآونة الأخيرة ، أصبح جيل جديد من أدوات الألوان متاحًا بأسعار أقل بكثير ، مما يجعل هذا النهج ميسور التكلفة لكل من الرسامين المحترفين والهواة. اخترنا إحدى هذه الأدوات واختبرنا قدرتها على مساعدة الرسامين في خلط الدهانات الصبغية لتحقيق اللون المطلوب.
+                  بدأ نهجنا باختيار مجموعة محدودة من الدهانات الزيتية المصبوغة من خط فنان لعلامة تجارية تجارية (خط Van Gogh من Royal Talens).
+                  قمنا بتطبيق هذه الدهانات في مجموعة من الخلائط المختارة جيدًا لتحديد الخصائص الطيفية لكل طلاء صبغ. باستخدام برنامج جدول بيانات ونموذج بصري ، تمكنا بعد ذلك من إنشاء أي لون مرغوب فيه عن طريق حساب المزيج الأمثل من الدهانات الصباغية. في هذا المقال ، نختبر دقة هذه الطريقة للاستخدام من قبل الرسامين الفنانين.</p>
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : أرك كريشنير</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1bU1vLuZcT2niC_d8OS8llBaf-Sk9-fqD/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-12">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;">Flash - Absolute colour on all supports</h5>
+                <p class="card-text">
+                  كتاب يوضح تاريخ صناعة و أهم المميزات لألوان Flashe من قبل LEFRANC BOURGEOIS
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1fgOcvqSPP6byVcsh1i1iwJJiMwd6b3pg/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-13">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> ColorVis: Exploring Colour Usage in Paintings Over Time </h5>
+                <p class="card-text">
+                  الخلاصة كانت لوحة ألوان الرسامين على مر التاريخ موضع اهتمام الكثيرين ، بما في ذلك مؤرخو الفن وعلماء الآثار ومحبي الفن. يتغير استخدام الألوان في الفن من ثقافة إلى أخرى ومن موسم إلى آخر ، وغالبًا ما يُنظر إليه على أنه يعكس أو يلهم المزاج والأجواء. نقدم ColourVis: تصور يدعم استكشاف استخدام الألوان في الصور الرقمية. على وجه الخصوص ، نستخدم الفن الأوروبي كدراسة حالة على مدى القرون الستة الماضية. يقدم تصور هذه المنطقة غير المستكشفة نسبيًا رؤى حول أسئلة مثل: ما مدى اللون الأزرق الذي كان عليه فترة بيكاسو الزرقاء ؟؛ كيف تقارن اختيارات ألوان الرسامين الواقعيين بتلك الخاصة بالرسامين السرياليين ؛ أو كيف تغير استخدام الألوان بمرور الوقت؟ من خلال ColourVis ، نقدم أداة استكشاف ومقارنة للوحات الفردية ومجموعات اللوحات والاتجاهات في استخدام الألوان بمرور الوقت
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فئة من المختصين</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/14SHCVynwF9ulqTHWp00fQfb26qRs7PIF/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-14">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> Art Sperctrum - Fine Artists Oil Colour </h5>
+                <p class="card-text">
+                  يقدم هذا الكتاب تفاصيل ألوان Art Spectrum الزيتية الذي يعتبر الطلاء الأكثر إقبالاً علية في قارة أستراليا، يعطي الكتاب شرح مفصل للدراجات اللونية - أسمائها و أنواع المثبتات النهائية
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1QEv4_d7af5jkSWWRc-S9xNSNgl0FQRNK/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-15">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> تأثير الألوان على الإنسان </h5>
+                <p class="card-text">
+                  تظهر أهمية الألوان في حياة الإنسان في جميع الجوانب و المجالات الحياتية المختلفة، كالأداب و الفن و العلوم الإجتماعية و النفسية، و المادية و المعنوية و غيرها، ويختلف تعريف الألوان بإختلاف المجال الذي يتم استعمالها فيه، فالفنانون التشكيليون و الرسامون و العاملون في مجالات الأصباغ و الطباعة عرفوا الألوان على أنها الأحبار و المكونات الصبغية التي تستعمل في عملية إنتاجها
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : ايدان هارت</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1g0y1Qlo-y4MHUvxUZxkQf9Kz5obxb-OT/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-16">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> لأصبغة العضوية </h5>
+                <p class="card-text">
+                  كي تكون المادة صباغاً لابد من بعض الشروط الواجب توافرها فيها، منها وجود لون محدد و مستقر لها، يجب أن تكون قادرة على صباغة النسيج بطريقة مباشرة و غير مباشرة ، يجب أن لاتكون سريعة الزوال و مقاومة للماء و هذا ما يعطيها صفة الأفضل للأحماض المخففة و القلويات
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : طارق كاخيا</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/13dYi1b_OQws0Pu2UF5QjXeTndsFHsidP/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+          
+            <div class="card" id="pco-17">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> قيم اللون بين النظرية و التطبيق في التصميم المعاصر </h5>
+                <p class="card-text">
+                  اللون جزء من حياة الإنسان، و إذا نظرنا إلى العالم من حولنا نجد أننا نعيش في محيط لوني تتغير ألوانه من حين إلى أخر بشروق الشمس و غروبها، أو بظهور قوس قزح في قبة السماء، أو بتتابع فصول السنة الأربعة
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عادل أحمد</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1cUpbGe-nO1ouSweuJNeWvNKQCto7OFr2/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+         
+
+            <div class="card" id="pco-18">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> الأسس التعييرية للأعمال الفنية المسطحة و التي تنشأ من خلال الحركة التقديرة للقيم اللونية </h5>
+                <p class="card-text">
+                  تضفي الألوان بصفة عامة بهجة كبيرة على النفس، فالعين تحتاج إلى اللون كحاجتها إلى الضوء، و من خلال الألوان يتحول النتاج الفني إلى حقيقة مرئية مدركة
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : رجاء زمزمي</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/14zdsO-DL1rihfEtwXVK3sODQuerwnWDi/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-19">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> اللون و دلالته في القراّن الكريم </h5>
+                <p class="card-text">
+                  جاءت هذه الدراسة الموسومة ب"اللون ودلالاته في القراّن الكريم"، وقد اعتمدت على عدد متوافر من المصادر و المراجع على المنهج الإحصائي الوصفي في الدراسة، كون من مبررات هذه الدراسة إضافة لأهمية الموضوع ، محاولة الوصول إلى دراسة واقعية كافية تفتح الباب أمام الدارسين لمواصلة الإستقصاء لإثراء المكتبة العربية
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : نجاح المرازقة</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1AH-ynJPNtX3LPtonS_g91HoO0maXVd4N/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-20">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> لألوان و دلالتها في الحضارة الإسلامية - تطبيق على نماذج من المخطوطات العربية </h5>
+                <p class="card-text">
+                  لدراسة الألوان أهمية كبيرة في الحضارة الإسلامية فهي من الأدلة المادية على المستوى الذي وصلته الحضارة المادة، و على الطبقات الإجتماعية و تميزها كما تدل على رقى الصناعات و ازدهارها و على الأذواق وتطورها، وفي مجال الفنون تعتبر الألوان من أروع الصفحات في سجل الفن الإسلامي التي تبرر عبقرية الفنان المسلم و اصالته في الصناعة و الفن
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : طارق كاخيا</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1h8nAEJ-wqDGd75JPp_OMi-7DiiLUlY4i/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-21">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> الرسم بالألوان الزيتية على القماش </h5>
+                <p class="card-text">
+                  إختصار سريع لأبرز المواد و الأدوات المستخدمة في تقنيات الرسم و التصوير على خامة القماش
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :  جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1mUoKhUaHSHKgA57mX3dxaolBgNM0kaXH/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-22">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> نظرية الألوان </h5>
+                <p class="card-text">
+                  في عام 1666 قدم إسحاق نيوتن عجلة الألوان و التي هي بمثابة مفتاح يسهل الدخول لعالم الألوان، يساعد في فهم لغة الألوان، يرشد لطرق إنتقاء الألوان و كيفية تكوين الإنسجام بين الخيارات
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :  لجنة من المختصين</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1tHZwi-y0MTZvfeMl_rXoh_TfsP-reurq/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-23">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> نظرية اللون</h5>
+                <p class="card-text">
+                  مناقشة النظرية اللونية بإسلوب مبسط لنفس القواعد المتبعة في النظرية التقليدية للألوان
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مؤيد حسن</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/14bF_Qp6PGxljJtvvmG6Z5iMQGe4uy5d-/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-24">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> أمراض اللوحات الزيتية القماشية و طرائق علاجها و ترميمها </h5>
+                <p class="card-text">
+                  تعد اللوحة الزيتية أو ما تسمى لوحة الحامل و التي عرفت في القرن الخامس عشر كتقنية تصويرية، جزءا مهما من مجمل ثقافات الأمم، و كون تقدم الأمم يقاس بمدى تقدم فنونها، كان لابد من تسليط الضوء في هذا البحث على جانب مهمل في الدراسات التخصصية، و هي الإصابات التي تنال من الأعمال التصويرية القماشية، و طرائق الوقاية منها
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : باسم دحدوح</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/17tNd5bnxxQHvDNR9GhSbmPkXkn892D12/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-25">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> القيمة الجمالية و المعرفية من خلال إستخدام خامة ألوان الأكرليك في اللوحة الجدارية الحديثة </h5>
+                <p class="card-text">
+                  هدفت الدراسات إلى التعرف على خامة ألوان الأكرليك كخامة صناعية حديثة، وما أحدثته من أثر واضح في تطور اللوحة الجدارية، و المعرفة العلمية و الأكاديمية و التقنية لإستخدام هذه الخامة في اللوحة الجدارية الحديثة و طريقة تنفيذها و ملائمتها لعوامل البيئة و المناخ
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :  لجنة من المختصين</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1lkbsRTZIGxpL2sRwsbeOLRHrCF94M0_v/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-26">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> علم نفس الألوان - التأثيرات النفسية للألوان</h5>
+                <p class="card-text">
+                  عرفت بعض الثقافات القديمة (المصرية، الصينية) العلاج بالألوان التي ما زالت تستعمل إلى يومنا هذا كعلاج بديل، و هكذا فكل لون يستعمل في علاج معين، إلى أن معظم العلماء النفسيين ينظرون بالريبة و التشكيك ويدلون بأن تأثيرات الألوان على النفس مبالغ فيها جداً، كما أن للألوان معاني مختلفة في الثقافات المختلفة، إضافة إلى أن التأثير المزعوم للون قد يكون مؤقت
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : مصطفى شكيب</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1g9e0CFSseyUCGzPYU1Y5wxcXPGy_xvQa/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-27">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> رمزية الألوان من المقدس الديني إلى السياسي</h5>
+                <p class="card-text">
+                  مادور المقدس الديني في تشكيل الإرث الرمزي للألوان؟ وما فاعلية هذا الدور في المجتمع السياسي؟ ما وظائف الألوان؟ وما أبعادها الدلالية؟ هل تتفاوت الألوان قدرة على حمل دلالات دينية مقدسة وإنتاج المعاني القدسية؟ ما الأثر الديني في تشكيل سيميائية اللون؟ وما وجوه الإنزياح في دلالة الألوان ورمزياتها عبر التاريخ البشري؟ و الكثير من الأسئلة التي يتم النقاش عنها عبر هذا الكتاب
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : شكري بوشعالة</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1z8qjmTD3cgqGniSl-RNVgRWryLWyY3hk/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-28">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> الأنساق اللونية و تحولاتها في الرسم الأوربي الحديث </h5>
+                <p class="card-text">
+                  مواضيع الفنون تشغل حيزاً كبيراً من الدراسات العلمية في العصر الحديث وخاصة موضوع الألوان في العمل الفني حيث نشأت نظريات و المدارس الفنية المختلفة، فالفنون الإنسانية تحتل مكانة عظيمة في حياة الناس و دنيا المجتمعات و عالم التقدم و الحضارات
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : تحرير حسين</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1UB-iHWqfYLtTdnxd4pYfs5SbSEX2VJCJ/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-29">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> القواعد الأساسية التي تؤثر في علاقة الألوان مع بعضها البعض و علاقتها المرئية </h5>
+                <p class="card-text">
+                  يتناول البحث المفاهيم العامة و صولاً إلى القواعد الأساسية في تاثير العلاقات اللونية بجوار بعضها البعض
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1swk1_jzk9tXO37kT16UZy4JFZ5vCOyV7/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-30">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> إضاءة الألوان و استعمالاتها</h5>
+                <p class="card-text">
+                  قد يكون اللون لوناً ضوئياً أو طيفياً ناتج عن إشعاع شمسي أو ضوء صناعي كهربائي أو نتيجة انعكاس أو امتصاص و انكسار كما في قوس قزح و المواد المنكسرة خلال الزجاج و الماء
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : حسن الجنزي</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/11FkyuQuVC6WWtV-nkebRDcFZMbaG5ljP/view?usp=sharing"">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-31">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> هل تتحدثون لغة الألوان؟ </h5>
+                <p class="card-text">
+                  هنالك علاقة وثيقة بين الألوان و الحالة النفسية للإنسان، وتتضارب الأراء حول مدى تأثير الألوان في الحياة اليومية، لكن و بحكم الفطرة يمكننا أن نعرف أن هناك علاقة بين الألوان و الحالة المزاجية للفرد
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :  جهة مختصة</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1YocOdQp_iZHB0inZv43sUPaPUpNInuMa/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-32">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> لمحة عن تاريخ الألوان في حياة الشعوب </h5>
+                <p class="card-text">
+                  تدور خبرات الشعوب حول الألوان منذ خلق الكون، و بدء الحياة و الوجود .. وهكذا اتسم التراب بالحمرة و السماء بالزرقة و الحقول بلونها الاخضر
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1FwSD32e_p-VZxxp9CwtsJdNOhAOP9-wv/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-33">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> إضاءة الألوان و استعمالاتها </h5>
+                <p class="card-text">
+                  قد يكون اللون لوناً ضوئياً أو طيفياً ناتج عن إشعاع شمسي أو ضوء صناعي كهربائي أو نتيجة انعكاس أو امتصاص و انكسار كما في قوس قزح و المواد المنكسرة خلال الزجاج و الماء
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : حسن الجنزي</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/11FkyuQuVC6WWtV-nkebRDcFZMbaG5ljP/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-34">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> الدلالة النفسية للون في شعر الطبيعة - العصر الأندلسي</h5>
+                <p class="card-text">
+                  يتناول الباحث الدلالة النفسية في اللون في شعر الطبيعة في الأندلس، و قام بتنظيم الدراسة في مقدمة و ثلاثة فصول، مقدمة البحث ، مدخل البحث أسئلة البحث، أهميته و أهدافه و الإطار النظري و الدراسات السابقة
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عبد العزيز المطيري</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/11CWH7lMM4oh7YVlgkPrIxOiPuEJLe7nH/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-35">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> التأثيرات الإدراكية لرمزية اللون ودورها في تصميم الشعار</h5>
+                <p class="card-text">
+                  يساهم الشعار بدوراً هاماً في الحياة المعاصرة بإعتباره أحد وسائل الإتصال التي تعتمد على الإيجاز في نقل الفكرة أو الرسالة، فهو رسالة ذات دلالة تتصل بهدف معين موجه إلى المشاهد، وقد يكون بنائها عبارة عن شكل أو حرف أو كلمة أو عناصر خطية حرة موجزة ذات دلالات رمزية لونية
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : محمد القاضي</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1DcRnIyewug5KZpr79dFx6vsRDVxLrG3G/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-36">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> جماليات اللون و الحركة في الفن البصري </h5>
+                <p class="card-text">
+                  يعني هذا البحث بدراسة اللون و الحركة في الفن البصري وهو يقع في أربعة فصول رئيسية تتناول أكثر الجوانب جدلاً في قضية الألوان و الحركة
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فئة من المختصين</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1vepuWA_deOX2eXirzXQnJmd4HqFAbFeE/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-37">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> اللون في الحاسب</h5>
+                <p class="card-text">
+                  اللون خصائص و تأثيرات تشكيلية مختلفة لها دور بارز في التصميم، فمن خلال العلاقات اللونية المتنوعة و استيعاب المصمم لقدرة اللون على الحركة الديناميكية و على توفير التغير الظاهري و الفراغ
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :  جهة رسمية</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1qFBgTOgtAYO6WzVjZru0lZDyEwb5jtWJ/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-38">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> دلالات سيكولوجية الألوان </h5>
+                <p class="card-text">
+                  هدفت هذه الدراسة إلى الكشف عن دلالات الألوان لدى عينة بلغت 4185 شخص و ذلك لتحقيق أهداف الدراسة
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : جهة مختصة</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1Ae4hzhFGEsFMKgFx90A8uSpPzLVqVTG2/view?usp=sharing">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-39">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> الالوان و الإستجابة البشرية </h5>
+                <p class="card-text">
+                  مقدمة المؤلف : هذا الكتاب مليئ بالمعلومات و قد حاولت قصارى جهدي أن أجعله سهل القراءة، أعتقد أن المعلومات الواردة حول موضوع الكتاب تفوق أي قدر من المعلومات أجتمعت في كتاب واحد
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :  فيبر باين</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1yS65Pu66VscQ3EdZb9GJxzxqZseRbYrN/view">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-40">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> دراسة عن الألوان </h5>
+                <p class="card-text">
+                  تؤثر الخلفية الحضارية و البيئية التي يعيش فيها الإنسان على تفضيل بعض الألوان على غيرها، إلا أن هنالك قدرا من الألوان اجتمعت معا لتلقى استحسان في كل الأماكن
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : إيمان شافع</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/15TtyVXOM9F0CxMpU8NFJqp_klqjEsp2P/view">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-41">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: right;"> نظرية الألوان </h5>
+                <p class="card-text">
+                  يستعرض كتاب نظرية الألوان العديد من النظريات اللونية التي تحقق الإنسجام و الإيقاع ضمن الأعمال الفنية في التشكيل و التصميم
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : عارف الطويل</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1E772oKNpNiKT95XCtUBtG-M7PCJqKscR/view">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-42">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> Soil Color Charts</h5>
+                <p class="card-text">
+                  كتاب مخططات الألوان الترابية - يقدم الكتاب نظريات مطبقة على الألوان من قبل العالم اللوني هنري مونسل
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : هنري مونسل</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1qBFzFQUxeQw_T4BFss3fMElzCW02GBG9/view">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-43">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> The Elements of Color </h5>
+                <p class="card-text">
+                  كتاب عناصر اللون للباحث اللوني فيبر بيرين
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف : فيبر بيرين</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1JYmfMxNnvLzVYZQyHsS3aIiyU7Zgfmhx/view">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+
+            <div class="card" id="pco-44">
+              <div class="card-body" id="cards-book-all-lib">
+                <h5 class="card-title" style="text-align: left;"> The Color Soil </h5>
+                <p class="card-text">
+                  كتاب الألوان الترابية للعالم اللوني هنري مونسل
+                </p>
+                <p class="card-text"><small class="text-muted"><i class="fas fa-file-signature"></i> تأليف :  هنري مونسل</small></p>
+                <p class="card-text">
+                  <small>
+                  التقييم : 
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </small>
+                </p>
+                <a href="https://drive.google.com/file/d/1ZoyoccQVe-YebY0oXyX4Mo4aq_hFBugV/view">
+                  <button type="button" class="btn">تحميل الكتاب</button>
+                </a>
+              </div>
+            </div>
+          </div>
+  </main>
+
+  <div id="line"></div>
+  <footer>
+    <div id="footer-header-card">
+      <br>
+      <div class="card mb-3" style="max-width: 1100px;box-shadow: 0px 0px 15px #fff;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <img
+              src="gif/00-footer.gif"
+              alt="..."
+              class="img-fluid"
+              width="50%"
+              style="border-bottom: 2px #000 solid;"
+            />
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              
+              <h5 class="card-title">مكتبة الفنون التشكيلية</h5>
+              <p class="card-text">
+                ستبقى المكتبة التشكيلية في طريق ضمها لأكبر عدد ممكن من المعارف المخصصة للفنون على مقاييس المدارس و الأكاديميات حول العالم.
+              </p>
+              <p class="card-text">
+                <small class="text-muted">جميع الحقوق محفوظة ©2021 مكتبة الفنون التشكيلية</small>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer-title">
+      <a target="_blank" href="https://andreiabd.github.io/CoderX/index.html" target="_blank"><i class="fas fa-cube"></i> All copyright ©2021 Abdrei Abd | CoderX</a>
+    </div>
+
+  </footer>
+  <!-- back to top btn -->
+  <button 
+    id="back-to-top-btn"
+  >
+    <i class="fas fa-angle-double-up"></i>
+    </button>
+
+  <!--BOOTSTRAP Script-->
+  <!-- MDB -->
+  <script
+    type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.0.0/mdb.min.js"
+  >
+  </script>
+
+  <script 
+    src="js/javascript.js"
+  >
+  </script>
+</body>
+</html>
