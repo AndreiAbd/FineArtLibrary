@@ -34,7 +34,6 @@ background: linear-gradient(90deg, rgba(87,0,0,1) 0%, rgba(214,0,0,1) 35%, rgba(
 z-index: 5;
 width: 100%;
 display: inline-grid;
-
 }
 footer{
 font-size: 15px;
@@ -46,6 +45,7 @@ border-radius: 0px 0px 15px 15px;
 text-align: center;
 font-weight: bold;
 box-shadow: 0px 0px 5px #000;
+margin-bottom: 70px;
 }
 #footer-header-card{
 margin:20px;
@@ -126,19 +126,23 @@ font-weight: bolder;
 }
 #marquee-blank{
 float: right;
-border: 1px solid #000 ;
+border: 1px solid #fff ;
 width:10%;
 height: 28px;
 border-radius: 15px 0px 0px 15px;
 box-shadow: 0px 1px 5px #000;
+background: rgb(87,0,0);
+background: linear-gradient(90deg, rgba(87,0,0,1) 0%, rgba(214,0,0,1) 35%, rgba(110,0,0,1) 100%);
 }
 #marquee-blank-mainpage{
 float: right;
-border: 1px solid #000 ;
+border: 1px solid #fff ;
 width:100%;
 height: 28px;
 border-radius: 0px 0px 15px 15px;
 box-shadow: 0px 1px 5px #000;
+background: rgb(87,0,0);
+background: linear-gradient(90deg, rgba(87,0,0,1) 0%, rgba(214,0,0,1) 35%, rgba(110,0,0,1) 100%);
 }
 #mainleft-texture{
 background-color: #fff;
@@ -151,6 +155,7 @@ text-align: right;
 direction: rtl;
 text-align: right;
 margin: 10px;
+margin-top: 70px;
 }
 #maintop-cardother{
 direction: ltr;
@@ -274,7 +279,6 @@ transition-duration: 0.2s;
 transition-timing-function: ease-in-out;
 transition-property: background-color, color;
 box-shadow: 0px 1px 5px #000;
-
 }
 #back-to-top-btn:hover, #back-to-top-btn:focus {
 background-color: #000;
@@ -296,12 +300,11 @@ direction: rtl;
 #content-drawing-and-painting{
 display: none;
 }
-#books-of-plastic-arts{
+#content-color{
 display: none;
 }
-#plastic-art-books-printmaking {
+#books-of-plastic-arts{
 display: none;
-font-size: 15px;
 }
 #content-printmaking {
 display: none;
@@ -309,27 +312,12 @@ display: none;
 #content-carving{
 display: none;
 }
-#plastic-art-books-carving{
-display: none;
-font-size: 15px;
-}
-#plastic-art-books-color{
-display: none;
-font-size: 15px;
-}
 #plastic-art-books-color button{
 border-radius: 15px 0px 15px 0px;
 text-align: right;
 border: 1px solid #000;
 margin: 5px;
 box-shadow: 0px 1px 5px #000;
-}
-#content-color{
-display: none;
-}
-#plastic-art-books-anatomy{
-display: none;
-font-size: 15px;
 }
 #plastic-art-books-anatomy button{
 border-radius: 15px 0px 15px 0px;
@@ -340,10 +328,6 @@ box-shadow: 0px 1px 5px #000;
 }
 #content-anatomy{
 display: none;
-}
-#plastic-art-books-prespective{
-display: none;
-font-size: 15px;
 }
 #plastic-art-books-prespective button{
 border-radius: 15px 0px 15px 0px;
@@ -362,25 +346,13 @@ border: 1px solid #000;
 margin: 5px;
 box-shadow: 0px 1px 5px #000;
 }
-#plastic-art-books-design{
-font-size: 15px;
-display: none;
-}
 #content-design{
 display: none;
 }
-#plastic-art-books-education button{
-border-radius: 15px 0px 15px 0px;
-text-align: right;
-border: 1px solid #000;
-margin: 5px;
-box-shadow: 0px 1px 5px #000;
-}
-#plastic-art-books-education {
-font-size: 15px;
+#content-education{
 display: none;
 }
-#content-education{
+#content-criticism{
 display: none;
 }
 #plastic-art-books-criticism button{
@@ -389,13 +361,6 @@ text-align: right;
 border: 1px solid #000;
 margin: 5px;
 box-shadow: 0px 1px 5px #000;
-}
-#plastic-art-books-criticism{
-font-size: 15px;
-display: none;
-}
-#content-criticism{
-display: none;
 }
 #dialogoverlay{
 display: none;
@@ -426,7 +391,9 @@ padding: 15px;
 #dialogboxfooter{
 text-align: center;
 }
-/*nu*/
+.dropdown button{
+  font-family: 'Kufam', cursive;
+}
 .sidenav {
   height: 100%;
   width: 0;
@@ -442,17 +409,16 @@ text-align: center;
   transition: 0.5s;
   padding-top: 60px;
   direction: rtl;
-
 }
-
 .sidenav a {
   padding: 8px 8px 8px 32px;
   text-align: right;
-  font-size: 16px;
+  font-size: 14px;
   color: #fff;
   display: block;
   transition: 0.3s;
   font-weight: bold;
+  font-family: 'Kufam', cursive;
 }
 .sidenav a:hover {
   color: #fff;
@@ -471,14 +437,24 @@ text-align: center;
   margin-left: 50px;
 }
 .dropdown ul{
-  background-color: #a40101;
+  background-color: #000;
   border: 1px #fff solid;
   color: #fff;
+}
+.dropdown ul li a:hover{
+  color: #000;
+  border: 1px black solid;
+  background-color: #fff;
 }
 .sidenav .btn-primary{
   color: #fff;
   border: 1px solid #fff;
   background-color: rgba(255, 255, 255, 0);
+}
+.sidenav .btn-primary:hover{
+  color: #000;
+  border: 1px black solid;
+  background-color: #fff;
 }
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
