@@ -14,12 +14,11 @@ Facebook  :  https://www.facebook.com/andreiaabd/ */
 transition:all .5;
 }
 .small, small {
-    font-size: 1em;
+font-size: 1em;
 }
 body{
 width: 100%;
 margin: auto;
-.unselectable {
 -webkit-user-select: none;
 -webkit-touch-callout: none;
 -moz-user-select: none;
