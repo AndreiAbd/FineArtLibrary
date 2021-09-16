@@ -163,3 +163,17 @@ function openContentEducation() {
     document.getElementById("content-education").style.display = "none";
   }
 }
+function openContentSchools() {
+  if (document.getElementById("content-schools").style.display == "none"){
+    document.getElementById("content-schools").style.display = "block";
+  } else {
+    document.getElementById("content-schools").style.display = "none";
+  }
+}
+function openContentMovement() {
+  if (document.getElementById("content-movement").style.display == "none"){
+    document.getElementById("content-movement").style.display = "block";
+  } else {
+    document.getElementById("content-movement").style.display = "none";
+  }
+}
