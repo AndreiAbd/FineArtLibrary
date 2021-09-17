@@ -251,7 +251,14 @@
             </div>
             <div class="col-md-8">
                 <div class="card-body" style="margin-top: 50px;" >
-                  <h5 class="card-title"><i class="fa fa-bullhorn"></i> أهداف الموقع:</h5>
+                  <div id="line"></div>
+                  <h5 
+                    style="font-family: 'Kufam', cursive;" 
+                    class="card-title"
+                  >
+                    <i class="fa fa-bullhorn"></i> أهداف الموقع:
+                  </h5>
+                  <div id="line"></div>
                   <p class="card-text" style="font-weight: bold;">
                     يهدف موقع مكتبة الفنون التشكيلية بتزويد الراغبين من الباحثين و الفنانين و المهتمين بالمضمار الثقافي التشكيلي
                     بالمعارف و الأبحاث و الكتب الإلكترونية الأجنبية منها و العربية على حد سواء، يقدم الموقع مجموعة من
@@ -259,12 +266,27 @@
                     على الكتب المتخصصة وفق عنوان القسم المجهز به، ستبقى المكتبة التشكيلية في طريق ضمها لأكبر عدد ممكن من
                     المعارف المخصصة للفنون على مقاييس المدارس و الأكاديميات حول العالم.
                   </p>
-                  <h5 class="card-title"><i class="fa fa-bullhorn"></i> مشرف الموقع :</h5>
+                  <h5
+                    style="font-family: 'Kufam', cursive;"
+                    class="card-title"
+                  >
+                  <br><br>
+                  <div id="line"></div>
+                    <i class="fa fa-bullhorn"></i> مشرف الموقع :
+                  </h5>
+                  <div id="line"></div>
                   <p class="card-text" style="font-weight: bold;">
-                     يتم الإشراف على موقع مكتبة الفنون التشكيلية من قبل الفنان التشكيلي اندريه عبد،
-                     و مساهمة الفنان التشكيلي محمد عدي نين.
+                     يتم الإشراف على موقع مكتبة الفنون التشكيلية من قبل الفنان التشكيلي اندريه عبد.
                   </p>
-                  <h5 class="card-title"><i class="fa fa-bullhorn"></i> الداعم ومصمم الموقع :</p></h5>
+                  <br><br>
+                  <div id="line"></div>
+                  <h5 
+                    style="font-family: 'Kufam', cursive;"
+                    class="card-title"
+                  >
+                    <i class="fa fa-bullhorn"></i> الداعم ومصمم الموقع :</p>
+                  </h5>
+                  <div id="line"></div>
                   <p class="card-text" style="font-weight: bold;">
                     تم تصميم الموقع و تطويره من قبل المبرمج اندريه عبد تحت مسمى CoderX.
                   </p>
@@ -334,6 +356,16 @@
     <script 
       src="js/javascript.js"
     >
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript"> $(function () { $(this).bind("contextmenu", function (e) { e.preventDefault(); }); }); </script>
+    <script>
+      document.onkeydown = function(e) {
+              if (e.ctrlKey &&
+                  (e.keyCode === 85 )) {
+                  return false;
+              }
+      };
     </script>
   </body>
 </html>
